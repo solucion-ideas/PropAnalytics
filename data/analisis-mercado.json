@@ -1,0 +1,2348 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fechaGeneracion": "2025-12-11T15:57:13.516Z",
+    "totalProyectos": 5,
+    "periodoHistorico": "24 meses",
+    "periodoPrediccion": "12 meses",
+    "descripcion": "Análisis completo de mercado inmobiliario con tendencias, predicciones y métricas de inversión"
+  },
+  "analisis": {
+    "mitikah": {
+      "proyectoId": "mitikah",
+      "proyectoNombre": "Torre Mitikah",
+      "resumen": {
+        "precioActualM2": 95000,
+        "variacionMensual": 6.14,
+        "variacionAnual": 6.6,
+        "domPromedio": 50,
+        "inventarioActual": 12,
+        "tendencia": "Alcista",
+        "recomendacion": "Espera"
+      },
+      "historicoPrecio": [
+        {
+          "fecha": "2024-01-01",
+          "mes": "ene 24",
+          "precioPromedioM2": 91378,
+          "dom": 67,
+          "inventarioDisponible": 24,
+          "ventasMes": 10,
+          "absorcionMensual": 41.7,
+          "precioMinimo": 84068,
+          "precioMaximo": 98688
+        },
+        {
+          "fecha": "2024-02-01",
+          "mes": "feb 24",
+          "precioPromedioM2": 84818,
+          "dom": 85,
+          "inventarioDisponible": 25,
+          "ventasMes": 7,
+          "absorcionMensual": 28,
+          "precioMinimo": 78033,
+          "precioMaximo": 91603
+        },
+        {
+          "fecha": "2024-03-01",
+          "mes": "mar 24",
+          "precioPromedioM2": 90682,
+          "dom": 78,
+          "inventarioDisponible": 13,
+          "ventasMes": 7,
+          "absorcionMensual": 53.8,
+          "precioMinimo": 83427,
+          "precioMaximo": 97937
+        },
+        {
+          "fecha": "2024-04-01",
+          "mes": "abr 24",
+          "precioPromedioM2": 92025,
+          "dom": 52,
+          "inventarioDisponible": 16,
+          "ventasMes": 3,
+          "absorcionMensual": 18.8,
+          "precioMinimo": 84663,
+          "precioMaximo": 99387
+        },
+        {
+          "fecha": "2024-05-01",
+          "mes": "may 24",
+          "precioPromedioM2": 86354,
+          "dom": 71,
+          "inventarioDisponible": 23,
+          "ventasMes": 5,
+          "absorcionMensual": 21.7,
+          "precioMinimo": 79446,
+          "precioMaximo": 93262
+        },
+        {
+          "fecha": "2024-06-01",
+          "mes": "jun 24",
+          "precioPromedioM2": 92784,
+          "dom": 48,
+          "inventarioDisponible": 12,
+          "ventasMes": 4,
+          "absorcionMensual": 33.3,
+          "precioMinimo": 85361,
+          "precioMaximo": 100207
+        },
+        {
+          "fecha": "2024-07-01",
+          "mes": "jul 24",
+          "precioPromedioM2": 90286,
+          "dom": 69,
+          "inventarioDisponible": 14,
+          "ventasMes": 5,
+          "absorcionMensual": 35.7,
+          "precioMinimo": 83063,
+          "precioMaximo": 97509
+        },
+        {
+          "fecha": "2024-08-01",
+          "mes": "ago 24",
+          "precioPromedioM2": 88600,
+          "dom": 63,
+          "inventarioDisponible": 11,
+          "ventasMes": 9,
+          "absorcionMensual": 81.8,
+          "precioMinimo": 81512,
+          "precioMaximo": 95688
+        },
+        {
+          "fecha": "2024-09-01",
+          "mes": "sep 24",
+          "precioPromedioM2": 92420,
+          "dom": 63,
+          "inventarioDisponible": 13,
+          "ventasMes": 10,
+          "absorcionMensual": 76.9,
+          "precioMinimo": 85026,
+          "precioMaximo": 99814
+        },
+        {
+          "fecha": "2024-10-01",
+          "mes": "oct 24",
+          "precioPromedioM2": 91135,
+          "dom": 67,
+          "inventarioDisponible": 6,
+          "ventasMes": 9,
+          "absorcionMensual": 150,
+          "precioMinimo": 83844,
+          "precioMaximo": 98426
+        },
+        {
+          "fecha": "2024-11-01",
+          "mes": "nov 24",
+          "precioPromedioM2": 87921,
+          "dom": 73,
+          "inventarioDisponible": 17,
+          "ventasMes": 8,
+          "absorcionMensual": 47.1,
+          "precioMinimo": 80887,
+          "precioMaximo": 94955
+        },
+        {
+          "fecha": "2024-12-01",
+          "mes": "dic 24",
+          "precioPromedioM2": 94069,
+          "dom": 66,
+          "inventarioDisponible": 15,
+          "ventasMes": 6,
+          "absorcionMensual": 40,
+          "precioMinimo": 86543,
+          "precioMaximo": 101595
+        },
+        {
+          "fecha": "2025-01-01",
+          "mes": "ene 25",
+          "precioPromedioM2": 92294,
+          "dom": 69,
+          "inventarioDisponible": 19,
+          "ventasMes": 6,
+          "absorcionMensual": 31.6,
+          "precioMinimo": 84910,
+          "precioMaximo": 99678
+        },
+        {
+          "fecha": "2025-02-01",
+          "mes": "feb 25",
+          "precioPromedioM2": 89175,
+          "dom": 49,
+          "inventarioDisponible": 19,
+          "ventasMes": 11,
+          "absorcionMensual": 57.9,
+          "precioMinimo": 82041,
+          "precioMaximo": 96309
+        },
+        {
+          "fecha": "2025-03-01",
+          "mes": "mar 25",
+          "precioPromedioM2": 89222,
+          "dom": 66,
+          "inventarioDisponible": 22,
+          "ventasMes": 5,
+          "absorcionMensual": 22.7,
+          "precioMinimo": 82084,
+          "precioMaximo": 96360
+        },
+        {
+          "fecha": "2025-04-01",
+          "mes": "abr 25",
+          "precioPromedioM2": 93397,
+          "dom": 61,
+          "inventarioDisponible": 25,
+          "ventasMes": 9,
+          "absorcionMensual": 36,
+          "precioMinimo": 85925,
+          "precioMaximo": 100869
+        },
+        {
+          "fecha": "2025-05-01",
+          "mes": "may 25",
+          "precioPromedioM2": 89343,
+          "dom": 43,
+          "inventarioDisponible": 25,
+          "ventasMes": 3,
+          "absorcionMensual": 12,
+          "precioMinimo": 82196,
+          "precioMaximo": 96490
+        },
+        {
+          "fecha": "2025-06-01",
+          "mes": "jun 25",
+          "precioPromedioM2": 95986,
+          "dom": 53,
+          "inventarioDisponible": 18,
+          "ventasMes": 11,
+          "absorcionMensual": 61.1,
+          "precioMinimo": 88307,
+          "precioMaximo": 103665
+        },
+        {
+          "fecha": "2025-07-01",
+          "mes": "jul 25",
+          "precioPromedioM2": 91442,
+          "dom": 76,
+          "inventarioDisponible": 16,
+          "ventasMes": 8,
+          "absorcionMensual": 50,
+          "precioMinimo": 84127,
+          "precioMaximo": 98757
+        },
+        {
+          "fecha": "2025-08-01",
+          "mes": "ago 25",
+          "precioPromedioM2": 94799,
+          "dom": 79,
+          "inventarioDisponible": 15,
+          "ventasMes": 5,
+          "absorcionMensual": 33.3,
+          "precioMinimo": 87215,
+          "precioMaximo": 102383
+        },
+        {
+          "fecha": "2025-09-01",
+          "mes": "sep 25",
+          "precioPromedioM2": 97684,
+          "dom": 50,
+          "inventarioDisponible": 24,
+          "ventasMes": 9,
+          "absorcionMensual": 37.5,
+          "precioMinimo": 89869,
+          "precioMaximo": 105499
+        },
+        {
+          "fecha": "2025-10-01",
+          "mes": "oct 25",
+          "precioPromedioM2": 93194,
+          "dom": 79,
+          "inventarioDisponible": 22,
+          "ventasMes": 3,
+          "absorcionMensual": 13.6,
+          "precioMinimo": 85738,
+          "precioMaximo": 100650
+        },
+        {
+          "fecha": "2025-11-01",
+          "mes": "nov 25",
+          "precioPromedioM2": 92694,
+          "dom": 90,
+          "inventarioDisponible": 25,
+          "ventasMes": 4,
+          "absorcionMensual": 16,
+          "precioMinimo": 85278,
+          "precioMaximo": 100110
+        },
+        {
+          "fecha": "2025-12-01",
+          "mes": "dic 25",
+          "precioPromedioM2": 98386,
+          "dom": 50,
+          "inventarioDisponible": 12,
+          "ventasMes": 8,
+          "absorcionMensual": 66.7,
+          "precioMinimo": 90515,
+          "precioMaximo": 106257
+        }
+      ],
+      "prediccionPrecio": [
+        {
+          "fecha": "2026-01-01",
+          "mes": "ene 26",
+          "precioPredichoM2": 99382,
+          "rangoMinimo": 94413,
+          "rangoMaximo": 104351,
+          "confianza": 93
+        },
+        {
+          "fecha": "2026-02-01",
+          "mes": "feb 26",
+          "precioPredichoM2": 100388,
+          "rangoMinimo": 95369,
+          "rangoMaximo": 105407,
+          "confianza": 91
+        },
+        {
+          "fecha": "2026-03-01",
+          "mes": "mar 26",
+          "precioPredichoM2": 101405,
+          "rangoMinimo": 96335,
+          "rangoMaximo": 106475,
+          "confianza": 89
+        },
+        {
+          "fecha": "2026-04-01",
+          "mes": "abr 26",
+          "precioPredichoM2": 102432,
+          "rangoMinimo": 97310,
+          "rangoMaximo": 107554,
+          "confianza": 87
+        },
+        {
+          "fecha": "2026-05-01",
+          "mes": "may 26",
+          "precioPredichoM2": 103469,
+          "rangoMinimo": 98296,
+          "rangoMaximo": 108642,
+          "confianza": 85
+        },
+        {
+          "fecha": "2026-06-01",
+          "mes": "jun 26",
+          "precioPredichoM2": 104516,
+          "rangoMinimo": 99290,
+          "rangoMaximo": 109742,
+          "confianza": 83
+        },
+        {
+          "fecha": "2026-07-01",
+          "mes": "jul 26",
+          "precioPredichoM2": 105575,
+          "rangoMinimo": 100296,
+          "rangoMaximo": 110854,
+          "confianza": 81
+        },
+        {
+          "fecha": "2026-08-01",
+          "mes": "ago 26",
+          "precioPredichoM2": 106644,
+          "rangoMinimo": 101312,
+          "rangoMaximo": 111976,
+          "confianza": 79
+        },
+        {
+          "fecha": "2026-09-01",
+          "mes": "sep 26",
+          "precioPredichoM2": 107723,
+          "rangoMinimo": 102337,
+          "rangoMaximo": 113109,
+          "confianza": 77
+        },
+        {
+          "fecha": "2026-10-01",
+          "mes": "oct 26",
+          "precioPredichoM2": 108814,
+          "rangoMinimo": 103373,
+          "rangoMaximo": 114255,
+          "confianza": 75
+        },
+        {
+          "fecha": "2026-11-01",
+          "mes": "nov 26",
+          "precioPredichoM2": 109916,
+          "rangoMinimo": 104420,
+          "rangoMaximo": 115412,
+          "confianza": 73
+        },
+        {
+          "fecha": "2026-12-01",
+          "mes": "dic 26",
+          "precioPredichoM2": 111029,
+          "rangoMinimo": 105478,
+          "rangoMaximo": 116580,
+          "confianza": 71
+        }
+      ],
+      "inversion": {
+        "inversion": {
+          "superficieM2": 103,
+          "precioM2": 95000,
+          "precioTotal": 9747488,
+          "enganche20": 1949498,
+          "financiamiento80": 7797990
+        },
+        "alquiler": {
+          "alquilerMensual": 52810,
+          "alquilerAnual": 633720,
+          "tasaOcupacion": 85.1,
+          "ingresoNetoAnual": 417738,
+          "gastosOperativos": 215982,
+          "desglose": {
+            "mantenimiento": 75594,
+            "administracion": 53996,
+            "seguros": 43196,
+            "impuestos": 43196
+          }
+        },
+        "rendimiento": {
+          "roi": 4.29,
+          "capRate": 4.29,
+          "apreciacionAnual": 2.93,
+          "rendimientoTotal": 7.22,
+          "paybackYears": 23.3,
+          "valorProyectado5Anos": 11261664
+        },
+        "metricas": {
+          "velocidadVenta": 7,
+          "absorcionMercado": 22.8,
+          "precioCompetitivo": "Alto"
+        }
+      },
+      "competencia": [
+        {
+          "nombre": "Proyecto C",
+          "distanciaKm": 1.7,
+          "precioM2": 94000,
+          "unidadesDisponibles": 32,
+          "entrega": "2027",
+          "amenidadesScore": 73
+        },
+        {
+          "nombre": "Proyecto F",
+          "distanciaKm": 1.7,
+          "precioM2": 103014,
+          "unidadesDisponibles": 33,
+          "entrega": "2025",
+          "amenidadesScore": 82
+        },
+        {
+          "nombre": "Proyecto E",
+          "distanciaKm": 1.9,
+          "precioM2": 85354,
+          "unidadesDisponibles": 16,
+          "entrega": "2025",
+          "amenidadesScore": 78
+        },
+        {
+          "nombre": "Proyecto B",
+          "distanciaKm": 2.5,
+          "precioM2": 106783,
+          "unidadesDisponibles": 12,
+          "entrega": "2027",
+          "amenidadesScore": 64
+        },
+        {
+          "nombre": "Proyecto D",
+          "distanciaKm": 2.6,
+          "precioM2": 84970,
+          "unidadesDisponibles": 16,
+          "entrega": "2026",
+          "amenidadesScore": 80
+        },
+        {
+          "nombre": "Proyecto A",
+          "distanciaKm": 2.7,
+          "precioM2": 93575,
+          "unidadesDisponibles": 17,
+          "entrega": "2026",
+          "amenidadesScore": 77
+        }
+      ],
+      "indicadores": {
+        "ofertaDemanda": {
+          "mesesInventario": 1.5,
+          "clasificacion": "Vendedor",
+          "velocidadVenta": 8,
+          "absorcion": 66.7
+        },
+        "liquidez": {
+          "dom": 50,
+          "clasificacion": "Media",
+          "comparativaZona": 51.878540683546234
+        },
+        "valoracion": {
+          "precioM2Zona": 90265,
+          "posicionamiento": "Competitivo",
+          "score": 88
+        }
+      }
+    },
+    "torre-koi": {
+      "proyectoId": "torre-koi",
+      "proyectoNombre": "Torre KOI",
+      "resumen": {
+        "precioActualM2": 120000,
+        "variacionMensual": 1.42,
+        "variacionAnual": 6.05,
+        "domPromedio": 48,
+        "inventarioActual": 22,
+        "tendencia": "Alcista",
+        "recomendacion": "Espera"
+      },
+      "historicoPrecio": [
+        {
+          "fecha": "2024-01-01",
+          "mes": "ene 24",
+          "precioPromedioM2": 109552,
+          "dom": 61,
+          "inventarioDisponible": 14,
+          "ventasMes": 6,
+          "absorcionMensual": 42.9,
+          "precioMinimo": 100788,
+          "precioMaximo": 118316
+        },
+        {
+          "fecha": "2024-02-01",
+          "mes": "feb 24",
+          "precioPromedioM2": 111619,
+          "dom": 87,
+          "inventarioDisponible": 27,
+          "ventasMes": 6,
+          "absorcionMensual": 22.2,
+          "precioMinimo": 102689,
+          "precioMaximo": 120549
+        },
+        {
+          "fecha": "2024-03-01",
+          "mes": "mar 24",
+          "precioPromedioM2": 110733,
+          "dom": 48,
+          "inventarioDisponible": 14,
+          "ventasMes": 6,
+          "absorcionMensual": 42.9,
+          "precioMinimo": 101874,
+          "precioMaximo": 119592
+        },
+        {
+          "fecha": "2024-04-01",
+          "mes": "abr 24",
+          "precioPromedioM2": 106040,
+          "dom": 55,
+          "inventarioDisponible": 20,
+          "ventasMes": 11,
+          "absorcionMensual": 55,
+          "precioMinimo": 97557,
+          "precioMaximo": 114523
+        },
+        {
+          "fecha": "2024-05-01",
+          "mes": "may 24",
+          "precioPromedioM2": 110148,
+          "dom": 80,
+          "inventarioDisponible": 14,
+          "ventasMes": 6,
+          "absorcionMensual": 42.9,
+          "precioMinimo": 101336,
+          "precioMaximo": 118960
+        },
+        {
+          "fecha": "2024-06-01",
+          "mes": "jun 24",
+          "precioPromedioM2": 109743,
+          "dom": 71,
+          "inventarioDisponible": 14,
+          "ventasMes": 9,
+          "absorcionMensual": 64.3,
+          "precioMinimo": 100964,
+          "precioMaximo": 118522
+        },
+        {
+          "fecha": "2024-07-01",
+          "mes": "jul 24",
+          "precioPromedioM2": 111249,
+          "dom": 77,
+          "inventarioDisponible": 17,
+          "ventasMes": 3,
+          "absorcionMensual": 17.6,
+          "precioMinimo": 102349,
+          "precioMaximo": 120149
+        },
+        {
+          "fecha": "2024-08-01",
+          "mes": "ago 24",
+          "precioPromedioM2": 110173,
+          "dom": 49,
+          "inventarioDisponible": 17,
+          "ventasMes": 6,
+          "absorcionMensual": 35.3,
+          "precioMinimo": 101359,
+          "precioMaximo": 118987
+        },
+        {
+          "fecha": "2024-09-01",
+          "mes": "sep 24",
+          "precioPromedioM2": 113886,
+          "dom": 51,
+          "inventarioDisponible": 13,
+          "ventasMes": 10,
+          "absorcionMensual": 76.9,
+          "precioMinimo": 104775,
+          "precioMaximo": 122997
+        },
+        {
+          "fecha": "2024-10-01",
+          "mes": "oct 24",
+          "precioPromedioM2": 111710,
+          "dom": 53,
+          "inventarioDisponible": 14,
+          "ventasMes": 7,
+          "absorcionMensual": 50,
+          "precioMinimo": 102773,
+          "precioMaximo": 120647
+        },
+        {
+          "fecha": "2024-11-01",
+          "mes": "nov 24",
+          "precioPromedioM2": 112121,
+          "dom": 50,
+          "inventarioDisponible": 6,
+          "ventasMes": 3,
+          "absorcionMensual": 50,
+          "precioMinimo": 103151,
+          "precioMaximo": 121091
+        },
+        {
+          "fecha": "2024-12-01",
+          "mes": "dic 24",
+          "precioPromedioM2": 113702,
+          "dom": 56,
+          "inventarioDisponible": 15,
+          "ventasMes": 9,
+          "absorcionMensual": 60,
+          "precioMinimo": 104606,
+          "precioMaximo": 122798
+        },
+        {
+          "fecha": "2025-01-01",
+          "mes": "ene 25",
+          "precioPromedioM2": 114466,
+          "dom": 54,
+          "inventarioDisponible": 19,
+          "ventasMes": 9,
+          "absorcionMensual": 47.4,
+          "precioMinimo": 105309,
+          "precioMaximo": 123623
+        },
+        {
+          "fecha": "2025-02-01",
+          "mes": "feb 25",
+          "precioPromedioM2": 116280,
+          "dom": 64,
+          "inventarioDisponible": 21,
+          "ventasMes": 8,
+          "absorcionMensual": 38.1,
+          "precioMinimo": 106978,
+          "precioMaximo": 125582
+        },
+        {
+          "fecha": "2025-03-01",
+          "mes": "mar 25",
+          "precioPromedioM2": 111037,
+          "dom": 71,
+          "inventarioDisponible": 12,
+          "ventasMes": 7,
+          "absorcionMensual": 58.3,
+          "precioMinimo": 102154,
+          "precioMaximo": 119920
+        },
+        {
+          "fecha": "2025-04-01",
+          "mes": "abr 25",
+          "precioPromedioM2": 112402,
+          "dom": 85,
+          "inventarioDisponible": 25,
+          "ventasMes": 6,
+          "absorcionMensual": 24,
+          "precioMinimo": 103410,
+          "precioMaximo": 121394
+        },
+        {
+          "fecha": "2025-05-01",
+          "mes": "may 25",
+          "precioPromedioM2": 112636,
+          "dom": 51,
+          "inventarioDisponible": 22,
+          "ventasMes": 7,
+          "absorcionMensual": 31.8,
+          "precioMinimo": 103625,
+          "precioMaximo": 121647
+        },
+        {
+          "fecha": "2025-06-01",
+          "mes": "jun 25",
+          "precioPromedioM2": 118528,
+          "dom": 91,
+          "inventarioDisponible": 28,
+          "ventasMes": 9,
+          "absorcionMensual": 32.1,
+          "precioMinimo": 109046,
+          "precioMaximo": 128010
+        },
+        {
+          "fecha": "2025-07-01",
+          "mes": "jul 25",
+          "precioPromedioM2": 120748,
+          "dom": 65,
+          "inventarioDisponible": 28,
+          "ventasMes": 5,
+          "absorcionMensual": 17.9,
+          "precioMinimo": 111088,
+          "precioMaximo": 130408
+        },
+        {
+          "fecha": "2025-08-01",
+          "mes": "ago 25",
+          "precioPromedioM2": 122160,
+          "dom": 41,
+          "inventarioDisponible": 27,
+          "ventasMes": 6,
+          "absorcionMensual": 22.2,
+          "precioMinimo": 112387,
+          "precioMaximo": 131933
+        },
+        {
+          "fecha": "2025-09-01",
+          "mes": "sep 25",
+          "precioPromedioM2": 120182,
+          "dom": 68,
+          "inventarioDisponible": 22,
+          "ventasMes": 6,
+          "absorcionMensual": 27.3,
+          "precioMinimo": 110567,
+          "precioMaximo": 129797
+        },
+        {
+          "fecha": "2025-10-01",
+          "mes": "oct 25",
+          "precioPromedioM2": 116580,
+          "dom": 75,
+          "inventarioDisponible": 15,
+          "ventasMes": 10,
+          "absorcionMensual": 66.7,
+          "precioMinimo": 107254,
+          "precioMaximo": 125906
+        },
+        {
+          "fecha": "2025-11-01",
+          "mes": "nov 25",
+          "precioPromedioM2": 119685,
+          "dom": 75,
+          "inventarioDisponible": 21,
+          "ventasMes": 10,
+          "absorcionMensual": 47.6,
+          "precioMinimo": 110110,
+          "precioMaximo": 129260
+        },
+        {
+          "fecha": "2025-12-01",
+          "mes": "dic 25",
+          "precioPromedioM2": 121386,
+          "dom": 48,
+          "inventarioDisponible": 22,
+          "ventasMes": 6,
+          "absorcionMensual": 27.3,
+          "precioMinimo": 111675,
+          "precioMaximo": 131097
+        }
+      ],
+      "prediccionPrecio": [
+        {
+          "fecha": "2026-01-01",
+          "mes": "ene 26",
+          "precioPredichoM2": 121472,
+          "rangoMinimo": 115398,
+          "rangoMaximo": 127546,
+          "confianza": 93
+        },
+        {
+          "fecha": "2026-02-01",
+          "mes": "feb 26",
+          "precioPredichoM2": 121557,
+          "rangoMinimo": 115479,
+          "rangoMaximo": 127635,
+          "confianza": 91
+        },
+        {
+          "fecha": "2026-03-01",
+          "mes": "mar 26",
+          "precioPredichoM2": 121643,
+          "rangoMinimo": 115561,
+          "rangoMaximo": 127725,
+          "confianza": 89
+        },
+        {
+          "fecha": "2026-04-01",
+          "mes": "abr 26",
+          "precioPredichoM2": 121728,
+          "rangoMinimo": 115642,
+          "rangoMaximo": 127814,
+          "confianza": 87
+        },
+        {
+          "fecha": "2026-05-01",
+          "mes": "may 26",
+          "precioPredichoM2": 121814,
+          "rangoMinimo": 115723,
+          "rangoMaximo": 127905,
+          "confianza": 85
+        },
+        {
+          "fecha": "2026-06-01",
+          "mes": "jun 26",
+          "precioPredichoM2": 121900,
+          "rangoMinimo": 115805,
+          "rangoMaximo": 127995,
+          "confianza": 83
+        },
+        {
+          "fecha": "2026-07-01",
+          "mes": "jul 26",
+          "precioPredichoM2": 121986,
+          "rangoMinimo": 115887,
+          "rangoMaximo": 128085,
+          "confianza": 81
+        },
+        {
+          "fecha": "2026-08-01",
+          "mes": "ago 26",
+          "precioPredichoM2": 122072,
+          "rangoMinimo": 115968,
+          "rangoMaximo": 128176,
+          "confianza": 79
+        },
+        {
+          "fecha": "2026-09-01",
+          "mes": "sep 26",
+          "precioPredichoM2": 122158,
+          "rangoMinimo": 116050,
+          "rangoMaximo": 128266,
+          "confianza": 77
+        },
+        {
+          "fecha": "2026-10-01",
+          "mes": "oct 26",
+          "precioPredichoM2": 122244,
+          "rangoMinimo": 116132,
+          "rangoMaximo": 128356,
+          "confianza": 75
+        },
+        {
+          "fecha": "2026-11-01",
+          "mes": "nov 26",
+          "precioPredichoM2": 122330,
+          "rangoMinimo": 116214,
+          "rangoMaximo": 128447,
+          "confianza": 73
+        },
+        {
+          "fecha": "2026-12-01",
+          "mes": "dic 26",
+          "precioPredichoM2": 122416,
+          "rangoMinimo": 116295,
+          "rangoMaximo": 128537,
+          "confianza": 71
+        }
+      ],
+      "inversion": {
+        "inversion": {
+          "superficieM2": 117,
+          "precioM2": 120000,
+          "precioTotal": 13998865,
+          "enganche20": 2799773,
+          "financiamiento80": 11199092
+        },
+        "alquiler": {
+          "alquilerMensual": 68205,
+          "alquilerAnual": 818460,
+          "tasaOcupacion": 90.4,
+          "ingresoNetoAnual": 543696,
+          "gastosOperativos": 274764,
+          "desglose": {
+            "mantenimiento": 96167,
+            "administracion": 68691,
+            "seguros": 54953,
+            "impuestos": 54953
+          }
+        },
+        "rendimiento": {
+          "roi": 3.88,
+          "capRate": 3.88,
+          "apreciacionAnual": 4.83,
+          "rendimientoTotal": 8.71,
+          "paybackYears": 25.7,
+          "valorProyectado5Anos": 17722327
+        },
+        "metricas": {
+          "velocidadVenta": 6.3,
+          "absorcionMercado": 33.2,
+          "precioCompetitivo": "Alto"
+        }
+      },
+      "competencia": [
+        {
+          "nombre": "Proyecto D",
+          "distanciaKm": 1.1,
+          "precioM2": 109473,
+          "unidadesDisponibles": 27,
+          "entrega": "2026",
+          "amenidadesScore": 73
+        },
+        {
+          "nombre": "Proyecto B",
+          "distanciaKm": 1.6,
+          "precioM2": 107974,
+          "unidadesDisponibles": 19,
+          "entrega": "2027",
+          "amenidadesScore": 94
+        },
+        {
+          "nombre": "Proyecto C",
+          "distanciaKm": 2,
+          "precioM2": 123955,
+          "unidadesDisponibles": 5,
+          "entrega": "2027",
+          "amenidadesScore": 81
+        },
+        {
+          "nombre": "Proyecto A",
+          "distanciaKm": 3,
+          "precioM2": 114271,
+          "unidadesDisponibles": 34,
+          "entrega": "2026",
+          "amenidadesScore": 93
+        }
+      ],
+      "indicadores": {
+        "ofertaDemanda": {
+          "mesesInventario": 3.7,
+          "clasificacion": "Vendedor",
+          "velocidadVenta": 6,
+          "absorcion": 27.3
+        },
+        "liquidez": {
+          "dom": 48,
+          "clasificacion": "Media",
+          "comparativaZona": 43.13553860574089
+        },
+        "valoracion": {
+          "precioM2Zona": 116508,
+          "posicionamiento": "Competitivo",
+          "score": 70
+        }
+      }
+    },
+    "reforma-222": {
+      "proyectoId": "reforma-222",
+      "proyectoNombre": "Reforma 222",
+      "resumen": {
+        "precioActualM2": 115000,
+        "variacionMensual": 0.81,
+        "variacionAnual": 2.49,
+        "domPromedio": 55,
+        "inventarioActual": 12,
+        "tendencia": "Alcista",
+        "recomendacion": "Compra"
+      },
+      "historicoPrecio": [
+        {
+          "fecha": "2024-01-01",
+          "mes": "ene 24",
+          "precioPromedioM2": 104195,
+          "dom": 51,
+          "inventarioDisponible": 19,
+          "ventasMes": 8,
+          "absorcionMensual": 42.1,
+          "precioMinimo": 95859,
+          "precioMaximo": 112531
+        },
+        {
+          "fecha": "2024-02-01",
+          "mes": "feb 24",
+          "precioPromedioM2": 104159,
+          "dom": 65,
+          "inventarioDisponible": 16,
+          "ventasMes": 11,
+          "absorcionMensual": 68.8,
+          "precioMinimo": 95826,
+          "precioMaximo": 112492
+        },
+        {
+          "fecha": "2024-03-01",
+          "mes": "mar 24",
+          "precioPromedioM2": 105822,
+          "dom": 56,
+          "inventarioDisponible": 25,
+          "ventasMes": 4,
+          "absorcionMensual": 16,
+          "precioMinimo": 97356,
+          "precioMaximo": 114288
+        },
+        {
+          "fecha": "2024-04-01",
+          "mes": "abr 24",
+          "precioPromedioM2": 104474,
+          "dom": 45,
+          "inventarioDisponible": 10,
+          "ventasMes": 6,
+          "absorcionMensual": 60,
+          "precioMinimo": 96116,
+          "precioMaximo": 112832
+        },
+        {
+          "fecha": "2024-05-01",
+          "mes": "may 24",
+          "precioPromedioM2": 108459,
+          "dom": 56,
+          "inventarioDisponible": 18,
+          "ventasMes": 7,
+          "absorcionMensual": 38.9,
+          "precioMinimo": 99782,
+          "precioMaximo": 117136
+        },
+        {
+          "fecha": "2024-06-01",
+          "mes": "jun 24",
+          "precioPromedioM2": 111384,
+          "dom": 60,
+          "inventarioDisponible": 18,
+          "ventasMes": 11,
+          "absorcionMensual": 61.1,
+          "precioMinimo": 102473,
+          "precioMaximo": 120295
+        },
+        {
+          "fecha": "2024-07-01",
+          "mes": "jul 24",
+          "precioPromedioM2": 104443,
+          "dom": 61,
+          "inventarioDisponible": 14,
+          "ventasMes": 7,
+          "absorcionMensual": 50,
+          "precioMinimo": 96088,
+          "precioMaximo": 112798
+        },
+        {
+          "fecha": "2024-08-01",
+          "mes": "ago 24",
+          "precioPromedioM2": 110805,
+          "dom": 43,
+          "inventarioDisponible": 12,
+          "ventasMes": 10,
+          "absorcionMensual": 83.3,
+          "precioMinimo": 101941,
+          "precioMaximo": 119669
+        },
+        {
+          "fecha": "2024-09-01",
+          "mes": "sep 24",
+          "precioPromedioM2": 112119,
+          "dom": 63,
+          "inventarioDisponible": 11,
+          "ventasMes": 8,
+          "absorcionMensual": 72.7,
+          "precioMinimo": 103149,
+          "precioMaximo": 121089
+        },
+        {
+          "fecha": "2024-10-01",
+          "mes": "oct 24",
+          "precioPromedioM2": 105339,
+          "dom": 54,
+          "inventarioDisponible": 12,
+          "ventasMes": 11,
+          "absorcionMensual": 91.7,
+          "precioMinimo": 96912,
+          "precioMaximo": 113766
+        },
+        {
+          "fecha": "2024-11-01",
+          "mes": "nov 24",
+          "precioPromedioM2": 112062,
+          "dom": 46,
+          "inventarioDisponible": 7,
+          "ventasMes": 6,
+          "absorcionMensual": 85.7,
+          "precioMinimo": 103097,
+          "precioMaximo": 121027
+        },
+        {
+          "fecha": "2024-12-01",
+          "mes": "dic 24",
+          "precioPromedioM2": 107784,
+          "dom": 56,
+          "inventarioDisponible": 9,
+          "ventasMes": 5,
+          "absorcionMensual": 55.6,
+          "precioMinimo": 99161,
+          "precioMaximo": 116407
+        },
+        {
+          "fecha": "2025-01-01",
+          "mes": "ene 25",
+          "precioPromedioM2": 113218,
+          "dom": 38,
+          "inventarioDisponible": 16,
+          "ventasMes": 10,
+          "absorcionMensual": 62.5,
+          "precioMinimo": 104161,
+          "precioMaximo": 122275
+        },
+        {
+          "fecha": "2025-02-01",
+          "mes": "feb 25",
+          "precioPromedioM2": 108545,
+          "dom": 68,
+          "inventarioDisponible": 20,
+          "ventasMes": 7,
+          "absorcionMensual": 35,
+          "precioMinimo": 99861,
+          "precioMaximo": 117229
+        },
+        {
+          "fecha": "2025-03-01",
+          "mes": "mar 25",
+          "precioPromedioM2": 108620,
+          "dom": 59,
+          "inventarioDisponible": 13,
+          "ventasMes": 5,
+          "absorcionMensual": 38.5,
+          "precioMinimo": 99930,
+          "precioMaximo": 117310
+        },
+        {
+          "fecha": "2025-04-01",
+          "mes": "abr 25",
+          "precioPromedioM2": 108659,
+          "dom": 89,
+          "inventarioDisponible": 17,
+          "ventasMes": 6,
+          "absorcionMensual": 35.3,
+          "precioMinimo": 99966,
+          "precioMaximo": 117352
+        },
+        {
+          "fecha": "2025-05-01",
+          "mes": "may 25",
+          "precioPromedioM2": 111486,
+          "dom": 68,
+          "inventarioDisponible": 18,
+          "ventasMes": 11,
+          "absorcionMensual": 61.1,
+          "precioMinimo": 102567,
+          "precioMaximo": 120405
+        },
+        {
+          "fecha": "2025-06-01",
+          "mes": "jun 25",
+          "precioPromedioM2": 109243,
+          "dom": 55,
+          "inventarioDisponible": 16,
+          "ventasMes": 8,
+          "absorcionMensual": 50,
+          "precioMinimo": 100504,
+          "precioMaximo": 117982
+        },
+        {
+          "fecha": "2025-07-01",
+          "mes": "jul 25",
+          "precioPromedioM2": 115302,
+          "dom": 60,
+          "inventarioDisponible": 24,
+          "ventasMes": 7,
+          "absorcionMensual": 29.2,
+          "precioMinimo": 106078,
+          "precioMaximo": 124526
+        },
+        {
+          "fecha": "2025-08-01",
+          "mes": "ago 25",
+          "precioPromedioM2": 116282,
+          "dom": 52,
+          "inventarioDisponible": 21,
+          "ventasMes": 6,
+          "absorcionMensual": 28.6,
+          "precioMinimo": 106979,
+          "precioMaximo": 125585
+        },
+        {
+          "fecha": "2025-09-01",
+          "mes": "sep 25",
+          "precioPromedioM2": 110145,
+          "dom": 51,
+          "inventarioDisponible": 16,
+          "ventasMes": 10,
+          "absorcionMensual": 62.5,
+          "precioMinimo": 101333,
+          "precioMaximo": 118957
+        },
+        {
+          "fecha": "2025-10-01",
+          "mes": "oct 25",
+          "precioPromedioM2": 114303,
+          "dom": 65,
+          "inventarioDisponible": 17,
+          "ventasMes": 9,
+          "absorcionMensual": 52.9,
+          "precioMinimo": 105159,
+          "precioMaximo": 123447
+        },
+        {
+          "fecha": "2025-11-01",
+          "mes": "nov 25",
+          "precioPromedioM2": 115098,
+          "dom": 71,
+          "inventarioDisponible": 18,
+          "ventasMes": 9,
+          "absorcionMensual": 50,
+          "precioMinimo": 105890,
+          "precioMaximo": 124306
+        },
+        {
+          "fecha": "2025-12-01",
+          "mes": "dic 25",
+          "precioPromedioM2": 116034,
+          "dom": 55,
+          "inventarioDisponible": 12,
+          "ventasMes": 8,
+          "absorcionMensual": 66.7,
+          "precioMinimo": 106751,
+          "precioMaximo": 125317
+        }
+      ],
+      "prediccionPrecio": [
+        {
+          "fecha": "2026-01-01",
+          "mes": "ene 26",
+          "precioPredichoM2": 116132,
+          "rangoMinimo": 110325,
+          "rangoMaximo": 121939,
+          "confianza": 93
+        },
+        {
+          "fecha": "2026-02-01",
+          "mes": "feb 26",
+          "precioPredichoM2": 116231,
+          "rangoMinimo": 110419,
+          "rangoMaximo": 122043,
+          "confianza": 91
+        },
+        {
+          "fecha": "2026-03-01",
+          "mes": "mar 26",
+          "precioPredichoM2": 116329,
+          "rangoMinimo": 110513,
+          "rangoMaximo": 122145,
+          "confianza": 89
+        },
+        {
+          "fecha": "2026-04-01",
+          "mes": "abr 26",
+          "precioPredichoM2": 116427,
+          "rangoMinimo": 110606,
+          "rangoMaximo": 122248,
+          "confianza": 87
+        },
+        {
+          "fecha": "2026-05-01",
+          "mes": "may 26",
+          "precioPredichoM2": 116526,
+          "rangoMinimo": 110700,
+          "rangoMaximo": 122352,
+          "confianza": 85
+        },
+        {
+          "fecha": "2026-06-01",
+          "mes": "jun 26",
+          "precioPredichoM2": 116625,
+          "rangoMinimo": 110794,
+          "rangoMaximo": 122456,
+          "confianza": 83
+        },
+        {
+          "fecha": "2026-07-01",
+          "mes": "jul 26",
+          "precioPredichoM2": 116723,
+          "rangoMinimo": 110887,
+          "rangoMaximo": 122559,
+          "confianza": 81
+        },
+        {
+          "fecha": "2026-08-01",
+          "mes": "ago 26",
+          "precioPredichoM2": 116822,
+          "rangoMinimo": 110981,
+          "rangoMaximo": 122663,
+          "confianza": 79
+        },
+        {
+          "fecha": "2026-09-01",
+          "mes": "sep 26",
+          "precioPredichoM2": 116921,
+          "rangoMinimo": 111075,
+          "rangoMaximo": 122767,
+          "confianza": 77
+        },
+        {
+          "fecha": "2026-10-01",
+          "mes": "oct 26",
+          "precioPredichoM2": 117020,
+          "rangoMinimo": 111169,
+          "rangoMaximo": 122871,
+          "confianza": 75
+        },
+        {
+          "fecha": "2026-11-01",
+          "mes": "nov 26",
+          "precioPredichoM2": 117119,
+          "rangoMinimo": 111263,
+          "rangoMaximo": 122975,
+          "confianza": 73
+        },
+        {
+          "fecha": "2026-12-01",
+          "mes": "dic 26",
+          "precioPredichoM2": 117218,
+          "rangoMinimo": 111357,
+          "rangoMaximo": 123079,
+          "confianza": 71
+        }
+      ],
+      "inversion": {
+        "inversion": {
+          "superficieM2": 93,
+          "precioM2": 115000,
+          "precioTotal": 10673995,
+          "enganche20": 2134799,
+          "financiamiento80": 8539196
+        },
+        "alquiler": {
+          "alquilerMensual": 74696,
+          "alquilerAnual": 896352,
+          "tasaOcupacion": 94.9,
+          "ingresoNetoAnual": 660313,
+          "gastosOperativos": 236039,
+          "desglose": {
+            "mantenimiento": 82614,
+            "administracion": 59010,
+            "seguros": 47208,
+            "impuestos": 47208
+          }
+        },
+        "rendimiento": {
+          "roi": 6.19,
+          "capRate": 6.19,
+          "apreciacionAnual": 1.57,
+          "rendimientoTotal": 7.76,
+          "paybackYears": 16.2,
+          "valorProyectado5Anos": 11538630
+        },
+        "metricas": {
+          "velocidadVenta": 6.8,
+          "absorcionMercado": 34.9,
+          "precioCompetitivo": "Alto"
+        }
+      },
+      "competencia": [
+        {
+          "nombre": "Proyecto A",
+          "distanciaKm": 0.6,
+          "precioM2": 98117,
+          "unidadesDisponibles": 6,
+          "entrega": "2025",
+          "amenidadesScore": 74
+        },
+        {
+          "nombre": "Proyecto B",
+          "distanciaKm": 1.7,
+          "precioM2": 121420,
+          "unidadesDisponibles": 31,
+          "entrega": "2025",
+          "amenidadesScore": 67
+        },
+        {
+          "nombre": "Proyecto D",
+          "distanciaKm": 2.2,
+          "precioM2": 105335,
+          "unidadesDisponibles": 21,
+          "entrega": "2025",
+          "amenidadesScore": 87
+        },
+        {
+          "nombre": "Proyecto C",
+          "distanciaKm": 2.8,
+          "precioM2": 105305,
+          "unidadesDisponibles": 30,
+          "entrega": "2027",
+          "amenidadesScore": 91
+        }
+      ],
+      "indicadores": {
+        "ofertaDemanda": {
+          "mesesInventario": 1.5,
+          "clasificacion": "Vendedor",
+          "velocidadVenta": 8,
+          "absorcion": 66.7
+        },
+        "liquidez": {
+          "dom": 55,
+          "clasificacion": "Media",
+          "comparativaZona": 52.692081363724476
+        },
+        "valoracion": {
+          "precioM2Zona": 115374,
+          "posicionamiento": "Competitivo",
+          "score": 71
+        }
+      }
+    },
+    "andares-puerta-hierro": {
+      "proyectoId": "andares-puerta-hierro",
+      "proyectoNombre": "Torres Landmark Andares",
+      "resumen": {
+        "precioActualM2": 85000,
+        "variacionMensual": 7.05,
+        "variacionAnual": 7.1,
+        "domPromedio": 68,
+        "inventarioActual": 16,
+        "tendencia": "Alcista",
+        "recomendacion": "Espera"
+      },
+      "historicoPrecio": [
+        {
+          "fecha": "2024-01-01",
+          "mes": "ene 24",
+          "precioPromedioM2": 81529,
+          "dom": 55,
+          "inventarioDisponible": 22,
+          "ventasMes": 3,
+          "absorcionMensual": 13.6,
+          "precioMinimo": 75007,
+          "precioMaximo": 88051
+        },
+        {
+          "fecha": "2024-02-01",
+          "mes": "feb 24",
+          "precioPromedioM2": 76178,
+          "dom": 57,
+          "inventarioDisponible": 21,
+          "ventasMes": 5,
+          "absorcionMensual": 23.8,
+          "precioMinimo": 70084,
+          "precioMaximo": 82272
+        },
+        {
+          "fecha": "2024-03-01",
+          "mes": "mar 24",
+          "precioPromedioM2": 79411,
+          "dom": 77,
+          "inventarioDisponible": 26,
+          "ventasMes": 5,
+          "absorcionMensual": 19.2,
+          "precioMinimo": 73058,
+          "precioMaximo": 85764
+        },
+        {
+          "fecha": "2024-04-01",
+          "mes": "abr 24",
+          "precioPromedioM2": 80838,
+          "dom": 76,
+          "inventarioDisponible": 10,
+          "ventasMes": 9,
+          "absorcionMensual": 90,
+          "precioMinimo": 74371,
+          "precioMaximo": 87305
+        },
+        {
+          "fecha": "2024-05-01",
+          "mes": "may 24",
+          "precioPromedioM2": 79832,
+          "dom": 63,
+          "inventarioDisponible": 14,
+          "ventasMes": 4,
+          "absorcionMensual": 28.6,
+          "precioMinimo": 73445,
+          "precioMaximo": 86219
+        },
+        {
+          "fecha": "2024-06-01",
+          "mes": "jun 24",
+          "precioPromedioM2": 81070,
+          "dom": 57,
+          "inventarioDisponible": 10,
+          "ventasMes": 5,
+          "absorcionMensual": 50,
+          "precioMinimo": 74584,
+          "precioMaximo": 87556
+        },
+        {
+          "fecha": "2024-07-01",
+          "mes": "jul 24",
+          "precioPromedioM2": 83135,
+          "dom": 62,
+          "inventarioDisponible": 7,
+          "ventasMes": 7,
+          "absorcionMensual": 100,
+          "precioMinimo": 76484,
+          "precioMaximo": 89786
+        },
+        {
+          "fecha": "2024-08-01",
+          "mes": "ago 24",
+          "precioPromedioM2": 83076,
+          "dom": 48,
+          "inventarioDisponible": 15,
+          "ventasMes": 8,
+          "absorcionMensual": 53.3,
+          "precioMinimo": 76430,
+          "precioMaximo": 89722
+        },
+        {
+          "fecha": "2024-09-01",
+          "mes": "sep 24",
+          "precioPromedioM2": 83423,
+          "dom": 66,
+          "inventarioDisponible": 8,
+          "ventasMes": 7,
+          "absorcionMensual": 87.5,
+          "precioMinimo": 76749,
+          "precioMaximo": 90097
+        },
+        {
+          "fecha": "2024-10-01",
+          "mes": "oct 24",
+          "precioPromedioM2": 77827,
+          "dom": 79,
+          "inventarioDisponible": 16,
+          "ventasMes": 10,
+          "absorcionMensual": 62.5,
+          "precioMinimo": 71601,
+          "precioMaximo": 84053
+        },
+        {
+          "fecha": "2024-11-01",
+          "mes": "nov 24",
+          "precioPromedioM2": 78997,
+          "dom": 81,
+          "inventarioDisponible": 15,
+          "ventasMes": 6,
+          "absorcionMensual": 40,
+          "precioMinimo": 72677,
+          "precioMaximo": 85317
+        },
+        {
+          "fecha": "2024-12-01",
+          "mes": "dic 24",
+          "precioPromedioM2": 82527,
+          "dom": 63,
+          "inventarioDisponible": 14,
+          "ventasMes": 9,
+          "absorcionMensual": 64.3,
+          "precioMinimo": 75925,
+          "precioMaximo": 89129
+        },
+        {
+          "fecha": "2025-01-01",
+          "mes": "ene 25",
+          "precioPromedioM2": 82490,
+          "dom": 58,
+          "inventarioDisponible": 15,
+          "ventasMes": 9,
+          "absorcionMensual": 60,
+          "precioMinimo": 75891,
+          "precioMaximo": 89089
+        },
+        {
+          "fecha": "2025-02-01",
+          "mes": "feb 25",
+          "precioPromedioM2": 81983,
+          "dom": 66,
+          "inventarioDisponible": 12,
+          "ventasMes": 5,
+          "absorcionMensual": 41.7,
+          "precioMinimo": 75424,
+          "precioMaximo": 88542
+        },
+        {
+          "fecha": "2025-03-01",
+          "mes": "mar 25",
+          "precioPromedioM2": 79958,
+          "dom": 55,
+          "inventarioDisponible": 22,
+          "ventasMes": 3,
+          "absorcionMensual": 13.6,
+          "precioMinimo": 73561,
+          "precioMaximo": 86355
+        },
+        {
+          "fecha": "2025-04-01",
+          "mes": "abr 25",
+          "precioPromedioM2": 83400,
+          "dom": 80,
+          "inventarioDisponible": 21,
+          "ventasMes": 9,
+          "absorcionMensual": 42.9,
+          "precioMinimo": 76728,
+          "precioMaximo": 90072
+        },
+        {
+          "fecha": "2025-05-01",
+          "mes": "may 25",
+          "precioPromedioM2": 81590,
+          "dom": 86,
+          "inventarioDisponible": 18,
+          "ventasMes": 11,
+          "absorcionMensual": 61.1,
+          "precioMinimo": 75063,
+          "precioMaximo": 88117
+        },
+        {
+          "fecha": "2025-06-01",
+          "mes": "jun 25",
+          "precioPromedioM2": 86164,
+          "dom": 87,
+          "inventarioDisponible": 22,
+          "ventasMes": 7,
+          "absorcionMensual": 31.8,
+          "precioMinimo": 79271,
+          "precioMaximo": 93057
+        },
+        {
+          "fecha": "2025-07-01",
+          "mes": "jul 25",
+          "precioPromedioM2": 86728,
+          "dom": 61,
+          "inventarioDisponible": 30,
+          "ventasMes": 8,
+          "absorcionMensual": 26.7,
+          "precioMinimo": 79790,
+          "precioMaximo": 93666
+        },
+        {
+          "fecha": "2025-08-01",
+          "mes": "ago 25",
+          "precioPromedioM2": 83227,
+          "dom": 59,
+          "inventarioDisponible": 15,
+          "ventasMes": 3,
+          "absorcionMensual": 20,
+          "precioMinimo": 76569,
+          "precioMaximo": 89885
+        },
+        {
+          "fecha": "2025-09-01",
+          "mes": "sep 25",
+          "precioPromedioM2": 84231,
+          "dom": 52,
+          "inventarioDisponible": 16,
+          "ventasMes": 9,
+          "absorcionMensual": 56.3,
+          "precioMinimo": 77493,
+          "precioMaximo": 90969
+        },
+        {
+          "fecha": "2025-10-01",
+          "mes": "oct 25",
+          "precioPromedioM2": 86813,
+          "dom": 64,
+          "inventarioDisponible": 16,
+          "ventasMes": 4,
+          "absorcionMensual": 25,
+          "precioMinimo": 79868,
+          "precioMaximo": 93758
+        },
+        {
+          "fecha": "2025-11-01",
+          "mes": "nov 25",
+          "precioPromedioM2": 82528,
+          "dom": 78,
+          "inventarioDisponible": 20,
+          "ventasMes": 10,
+          "absorcionMensual": 50,
+          "precioMinimo": 75926,
+          "precioMaximo": 89130
+        },
+        {
+          "fecha": "2025-12-01",
+          "mes": "dic 25",
+          "precioPromedioM2": 88347,
+          "dom": 68,
+          "inventarioDisponible": 16,
+          "ventasMes": 8,
+          "absorcionMensual": 50,
+          "precioMinimo": 81279,
+          "precioMaximo": 95415
+        }
+      ],
+      "prediccionPrecio": [
+        {
+          "fecha": "2026-01-01",
+          "mes": "ene 26",
+          "precioPredichoM2": 88567,
+          "rangoMinimo": 84139,
+          "rangoMaximo": 92995,
+          "confianza": 93
+        },
+        {
+          "fecha": "2026-02-01",
+          "mes": "feb 26",
+          "precioPredichoM2": 88787,
+          "rangoMinimo": 84348,
+          "rangoMaximo": 93226,
+          "confianza": 91
+        },
+        {
+          "fecha": "2026-03-01",
+          "mes": "mar 26",
+          "precioPredichoM2": 89008,
+          "rangoMinimo": 84558,
+          "rangoMaximo": 93458,
+          "confianza": 89
+        },
+        {
+          "fecha": "2026-04-01",
+          "mes": "abr 26",
+          "precioPredichoM2": 89230,
+          "rangoMinimo": 84769,
+          "rangoMaximo": 93692,
+          "confianza": 87
+        },
+        {
+          "fecha": "2026-05-01",
+          "mes": "may 26",
+          "precioPredichoM2": 89452,
+          "rangoMinimo": 84979,
+          "rangoMaximo": 93925,
+          "confianza": 85
+        },
+        {
+          "fecha": "2026-06-01",
+          "mes": "jun 26",
+          "precioPredichoM2": 89675,
+          "rangoMinimo": 85191,
+          "rangoMaximo": 94159,
+          "confianza": 83
+        },
+        {
+          "fecha": "2026-07-01",
+          "mes": "jul 26",
+          "precioPredichoM2": 89898,
+          "rangoMinimo": 85403,
+          "rangoMaximo": 94393,
+          "confianza": 81
+        },
+        {
+          "fecha": "2026-08-01",
+          "mes": "ago 26",
+          "precioPredichoM2": 90122,
+          "rangoMinimo": 85616,
+          "rangoMaximo": 94628,
+          "confianza": 79
+        },
+        {
+          "fecha": "2026-09-01",
+          "mes": "sep 26",
+          "precioPredichoM2": 90346,
+          "rangoMinimo": 85829,
+          "rangoMaximo": 94863,
+          "confianza": 77
+        },
+        {
+          "fecha": "2026-10-01",
+          "mes": "oct 26",
+          "precioPredichoM2": 90571,
+          "rangoMinimo": 86042,
+          "rangoMaximo": 95100,
+          "confianza": 75
+        },
+        {
+          "fecha": "2026-11-01",
+          "mes": "nov 26",
+          "precioPredichoM2": 90796,
+          "rangoMinimo": 86256,
+          "rangoMaximo": 95336,
+          "confianza": 73
+        },
+        {
+          "fecha": "2026-12-01",
+          "mes": "dic 26",
+          "precioPredichoM2": 91022,
+          "rangoMinimo": 86471,
+          "rangoMaximo": 95573,
+          "confianza": 71
+        }
+      ],
+      "inversion": {
+        "inversion": {
+          "superficieM2": 108,
+          "precioM2": 85000,
+          "precioTotal": 9186406,
+          "enganche20": 1837281,
+          "financiamiento80": 7349125
+        },
+        "alquiler": {
+          "alquilerMensual": 64056,
+          "alquilerAnual": 768672,
+          "tasaOcupacion": 92.7,
+          "ingresoNetoAnual": 521326,
+          "gastosOperativos": 247346,
+          "desglose": {
+            "mantenimiento": 86571,
+            "administracion": 61837,
+            "seguros": 49469,
+            "impuestos": 49469
+          }
+        },
+        "rendimiento": {
+          "roi": 5.67,
+          "capRate": 5.67,
+          "apreciacionAnual": 3.04,
+          "rendimientoTotal": 8.71,
+          "paybackYears": 17.6,
+          "valorProyectado5Anos": 10670257
+        },
+        "metricas": {
+          "velocidadVenta": 6.2,
+          "absorcionMercado": 19.3,
+          "precioCompetitivo": "Alto"
+        }
+      },
+      "competencia": [
+        {
+          "nombre": "Proyecto A",
+          "distanciaKm": 0.7,
+          "precioM2": 83509,
+          "unidadesDisponibles": 9,
+          "entrega": "2027",
+          "amenidadesScore": 61
+        },
+        {
+          "nombre": "Proyecto C",
+          "distanciaKm": 1.4,
+          "precioM2": 88836,
+          "unidadesDisponibles": 33,
+          "entrega": "2027",
+          "amenidadesScore": 63
+        },
+        {
+          "nombre": "Proyecto B",
+          "distanciaKm": 1.5,
+          "precioM2": 96390,
+          "unidadesDisponibles": 16,
+          "entrega": "2027",
+          "amenidadesScore": 62
+        },
+        {
+          "nombre": "Proyecto D",
+          "distanciaKm": 2.7,
+          "precioM2": 86954,
+          "unidadesDisponibles": 12,
+          "entrega": "2026",
+          "amenidadesScore": 61
+        }
+      ],
+      "indicadores": {
+        "ofertaDemanda": {
+          "mesesInventario": 2,
+          "clasificacion": "Vendedor",
+          "velocidadVenta": 8,
+          "absorcion": 50
+        },
+        "liquidez": {
+          "dom": 68,
+          "clasificacion": "Media",
+          "comparativaZona": 72.67212486989177
+        },
+        "valoracion": {
+          "precioM2Zona": 88356,
+          "posicionamiento": "Competitivo",
+          "score": 76
+        }
+      }
+    },
+    "shark-tower": {
+      "proyectoId": "shark-tower",
+      "proyectoNombre": "Shark Tower Puerto Cancun",
+      "resumen": {
+        "precioActualM2": 95000,
+        "variacionMensual": -2.76,
+        "variacionAnual": 7.29,
+        "domPromedio": 49,
+        "inventarioActual": 20,
+        "tendencia": "Alcista",
+        "recomendacion": "Espera"
+      },
+      "historicoPrecio": [
+        {
+          "fecha": "2024-01-01",
+          "mes": "ene 24",
+          "precioPromedioM2": 84725,
+          "dom": 49,
+          "inventarioDisponible": 19,
+          "ventasMes": 9,
+          "absorcionMensual": 47.4,
+          "precioMinimo": 77947,
+          "precioMaximo": 91503
+        },
+        {
+          "fecha": "2024-02-01",
+          "mes": "feb 24",
+          "precioPromedioM2": 89107,
+          "dom": 38,
+          "inventarioDisponible": 22,
+          "ventasMes": 9,
+          "absorcionMensual": 40.9,
+          "precioMinimo": 81978,
+          "precioMaximo": 96236
+        },
+        {
+          "fecha": "2024-03-01",
+          "mes": "mar 24",
+          "precioPromedioM2": 87159,
+          "dom": 55,
+          "inventarioDisponible": 13,
+          "ventasMes": 4,
+          "absorcionMensual": 30.8,
+          "precioMinimo": 80186,
+          "precioMaximo": 94132
+        },
+        {
+          "fecha": "2024-04-01",
+          "mes": "abr 24",
+          "precioPromedioM2": 84054,
+          "dom": 63,
+          "inventarioDisponible": 20,
+          "ventasMes": 8,
+          "absorcionMensual": 40,
+          "precioMinimo": 77330,
+          "precioMaximo": 90778
+        },
+        {
+          "fecha": "2024-05-01",
+          "mes": "may 24",
+          "precioPromedioM2": 86328,
+          "dom": 69,
+          "inventarioDisponible": 8,
+          "ventasMes": 10,
+          "absorcionMensual": 125,
+          "precioMinimo": 79422,
+          "precioMaximo": 93234
+        },
+        {
+          "fecha": "2024-06-01",
+          "mes": "jun 24",
+          "precioPromedioM2": 87620,
+          "dom": 71,
+          "inventarioDisponible": 20,
+          "ventasMes": 6,
+          "absorcionMensual": 30,
+          "precioMinimo": 80610,
+          "precioMaximo": 94630
+        },
+        {
+          "fecha": "2024-07-01",
+          "mes": "jul 24",
+          "precioPromedioM2": 85175,
+          "dom": 65,
+          "inventarioDisponible": 9,
+          "ventasMes": 5,
+          "absorcionMensual": 55.6,
+          "precioMinimo": 78361,
+          "precioMaximo": 91989
+        },
+        {
+          "fecha": "2024-08-01",
+          "mes": "ago 24",
+          "precioPromedioM2": 88367,
+          "dom": 60,
+          "inventarioDisponible": 7,
+          "ventasMes": 9,
+          "absorcionMensual": 128.6,
+          "precioMinimo": 81298,
+          "precioMaximo": 95436
+        },
+        {
+          "fecha": "2024-09-01",
+          "mes": "sep 24",
+          "precioPromedioM2": 86546,
+          "dom": 70,
+          "inventarioDisponible": 13,
+          "ventasMes": 4,
+          "absorcionMensual": 30.8,
+          "precioMinimo": 79622,
+          "precioMaximo": 93470
+        },
+        {
+          "fecha": "2024-10-01",
+          "mes": "oct 24",
+          "precioPromedioM2": 88856,
+          "dom": 52,
+          "inventarioDisponible": 13,
+          "ventasMes": 5,
+          "absorcionMensual": 38.5,
+          "precioMinimo": 81748,
+          "precioMaximo": 95964
+        },
+        {
+          "fecha": "2024-11-01",
+          "mes": "nov 24",
+          "precioPromedioM2": 87347,
+          "dom": 67,
+          "inventarioDisponible": 16,
+          "ventasMes": 9,
+          "absorcionMensual": 56.3,
+          "precioMinimo": 80359,
+          "precioMaximo": 94335
+        },
+        {
+          "fecha": "2024-12-01",
+          "mes": "dic 24",
+          "precioPromedioM2": 88914,
+          "dom": 56,
+          "inventarioDisponible": 16,
+          "ventasMes": 9,
+          "absorcionMensual": 56.3,
+          "precioMinimo": 81801,
+          "precioMaximo": 96027
+        },
+        {
+          "fecha": "2025-01-01",
+          "mes": "ene 25",
+          "precioPromedioM2": 88600,
+          "dom": 68,
+          "inventarioDisponible": 13,
+          "ventasMes": 10,
+          "absorcionMensual": 76.9,
+          "precioMinimo": 81512,
+          "precioMaximo": 95688
+        },
+        {
+          "fecha": "2025-02-01",
+          "mes": "feb 25",
+          "precioPromedioM2": 93030,
+          "dom": 50,
+          "inventarioDisponible": 19,
+          "ventasMes": 9,
+          "absorcionMensual": 47.4,
+          "precioMinimo": 85588,
+          "precioMaximo": 100472
+        },
+        {
+          "fecha": "2025-03-01",
+          "mes": "mar 25",
+          "precioPromedioM2": 91567,
+          "dom": 43,
+          "inventarioDisponible": 17,
+          "ventasMes": 3,
+          "absorcionMensual": 17.6,
+          "precioMinimo": 84242,
+          "precioMaximo": 98892
+        },
+        {
+          "fecha": "2025-04-01",
+          "mes": "abr 25",
+          "precioPromedioM2": 88519,
+          "dom": 68,
+          "inventarioDisponible": 13,
+          "ventasMes": 5,
+          "absorcionMensual": 38.5,
+          "precioMinimo": 81437,
+          "precioMaximo": 95601
+        },
+        {
+          "fecha": "2025-05-01",
+          "mes": "may 25",
+          "precioPromedioM2": 95347,
+          "dom": 49,
+          "inventarioDisponible": 14,
+          "ventasMes": 5,
+          "absorcionMensual": 35.7,
+          "precioMinimo": 87719,
+          "precioMaximo": 102975
+        },
+        {
+          "fecha": "2025-06-01",
+          "mes": "jun 25",
+          "precioPromedioM2": 95652,
+          "dom": 47,
+          "inventarioDisponible": 23,
+          "ventasMes": 10,
+          "absorcionMensual": 43.5,
+          "precioMinimo": 88000,
+          "precioMaximo": 103304
+        },
+        {
+          "fecha": "2025-07-01",
+          "mes": "jul 25",
+          "precioPromedioM2": 95766,
+          "dom": 69,
+          "inventarioDisponible": 25,
+          "ventasMes": 4,
+          "absorcionMensual": 16,
+          "precioMinimo": 88105,
+          "precioMaximo": 103427
+        },
+        {
+          "fecha": "2025-08-01",
+          "mes": "ago 25",
+          "precioPromedioM2": 95231,
+          "dom": 63,
+          "inventarioDisponible": 27,
+          "ventasMes": 8,
+          "absorcionMensual": 29.6,
+          "precioMinimo": 87613,
+          "precioMaximo": 102849
+        },
+        {
+          "fecha": "2025-09-01",
+          "mes": "sep 25",
+          "precioPromedioM2": 96419,
+          "dom": 70,
+          "inventarioDisponible": 23,
+          "ventasMes": 10,
+          "absorcionMensual": 43.5,
+          "precioMinimo": 88705,
+          "precioMaximo": 104133
+        },
+        {
+          "fecha": "2025-10-01",
+          "mes": "oct 25",
+          "precioPromedioM2": 93940,
+          "dom": 73,
+          "inventarioDisponible": 11,
+          "ventasMes": 7,
+          "absorcionMensual": 63.6,
+          "precioMinimo": 86425,
+          "precioMaximo": 101455
+        },
+        {
+          "fecha": "2025-11-01",
+          "mes": "nov 25",
+          "precioPromedioM2": 97756,
+          "dom": 80,
+          "inventarioDisponible": 17,
+          "ventasMes": 4,
+          "absorcionMensual": 23.5,
+          "precioMinimo": 89936,
+          "precioMaximo": 105576
+        },
+        {
+          "fecha": "2025-12-01",
+          "mes": "dic 25",
+          "precioPromedioM2": 95060,
+          "dom": 49,
+          "inventarioDisponible": 20,
+          "ventasMes": 8,
+          "absorcionMensual": 40,
+          "precioMinimo": 87455,
+          "precioMaximo": 102665
+        }
+      ],
+      "prediccionPrecio": [
+        {
+          "fecha": "2026-01-01",
+          "mes": "ene 26",
+          "precioPredichoM2": 94967,
+          "rangoMinimo": 90219,
+          "rangoMaximo": 99715,
+          "confianza": 93
+        },
+        {
+          "fecha": "2026-02-01",
+          "mes": "feb 26",
+          "precioPredichoM2": 94873,
+          "rangoMinimo": 90129,
+          "rangoMaximo": 99617,
+          "confianza": 91
+        },
+        {
+          "fecha": "2026-03-01",
+          "mes": "mar 26",
+          "precioPredichoM2": 94780,
+          "rangoMinimo": 90041,
+          "rangoMaximo": 99519,
+          "confianza": 89
+        },
+        {
+          "fecha": "2026-04-01",
+          "mes": "abr 26",
+          "precioPredichoM2": 94687,
+          "rangoMinimo": 89953,
+          "rangoMaximo": 99421,
+          "confianza": 87
+        },
+        {
+          "fecha": "2026-05-01",
+          "mes": "may 26",
+          "precioPredichoM2": 94594,
+          "rangoMinimo": 89864,
+          "rangoMaximo": 99324,
+          "confianza": 85
+        },
+        {
+          "fecha": "2026-06-01",
+          "mes": "jun 26",
+          "precioPredichoM2": 94501,
+          "rangoMinimo": 89776,
+          "rangoMaximo": 99226,
+          "confianza": 83
+        },
+        {
+          "fecha": "2026-07-01",
+          "mes": "jul 26",
+          "precioPredichoM2": 94408,
+          "rangoMinimo": 89688,
+          "rangoMaximo": 99128,
+          "confianza": 81
+        },
+        {
+          "fecha": "2026-08-01",
+          "mes": "ago 26",
+          "precioPredichoM2": 94315,
+          "rangoMinimo": 89599,
+          "rangoMaximo": 99031,
+          "confianza": 79
+        },
+        {
+          "fecha": "2026-09-01",
+          "mes": "sep 26",
+          "precioPredichoM2": 94222,
+          "rangoMinimo": 89511,
+          "rangoMaximo": 98933,
+          "confianza": 77
+        },
+        {
+          "fecha": "2026-10-01",
+          "mes": "oct 26",
+          "precioPredichoM2": 94130,
+          "rangoMinimo": 89424,
+          "rangoMaximo": 98837,
+          "confianza": 75
+        },
+        {
+          "fecha": "2026-11-01",
+          "mes": "nov 26",
+          "precioPredichoM2": 94037,
+          "rangoMinimo": 89335,
+          "rangoMaximo": 98739,
+          "confianza": 73
+        },
+        {
+          "fecha": "2026-12-01",
+          "mes": "dic 26",
+          "precioPredichoM2": 93945,
+          "rangoMinimo": 89248,
+          "rangoMaximo": 98642,
+          "confianza": 71
+        }
+      ],
+      "inversion": {
+        "inversion": {
+          "superficieM2": 109,
+          "precioM2": 95000,
+          "precioTotal": 10313266,
+          "enganche20": 2062653,
+          "financiamiento80": 8250613
+        },
+        "alquiler": {
+          "alquilerMensual": 54558,
+          "alquilerAnual": 654696,
+          "tasaOcupacion": 85.6,
+          "ingresoNetoAnual": 438470,
+          "gastosOperativos": 216226,
+          "desglose": {
+            "mantenimiento": 75679,
+            "administracion": 54057,
+            "seguros": 43245,
+            "impuestos": 43245
+          }
+        },
+        "rendimiento": {
+          "roi": 4.25,
+          "capRate": 4.25,
+          "apreciacionAnual": 7.22,
+          "rendimientoTotal": 11.47,
+          "paybackYears": 23.5,
+          "valorProyectado5Anos": 14614206
+        },
+        "metricas": {
+          "velocidadVenta": 4.1,
+          "absorcionMercado": 30.6,
+          "precioCompetitivo": "Alto"
+        }
+      },
+      "competencia": [
+        {
+          "nombre": "Proyecto C",
+          "distanciaKm": 1.5,
+          "precioM2": 83735,
+          "unidadesDisponibles": 24,
+          "entrega": "2026",
+          "amenidadesScore": 64
+        },
+        {
+          "nombre": "Proyecto A",
+          "distanciaKm": 2.5,
+          "precioM2": 93705,
+          "unidadesDisponibles": 15,
+          "entrega": "2026",
+          "amenidadesScore": 63
+        },
+        {
+          "nombre": "Proyecto B",
+          "distanciaKm": 2.6,
+          "precioM2": 96315,
+          "unidadesDisponibles": 20,
+          "entrega": "2026",
+          "amenidadesScore": 94
+        },
+        {
+          "nombre": "Proyecto D",
+          "distanciaKm": 2.9,
+          "precioM2": 95728,
+          "unidadesDisponibles": 32,
+          "entrega": "2027",
+          "amenidadesScore": 62
+        }
+      ],
+      "indicadores": {
+        "ofertaDemanda": {
+          "mesesInventario": 2.5,
+          "clasificacion": "Vendedor",
+          "velocidadVenta": 8,
+          "absorcion": 40
+        },
+        "liquidez": {
+          "dom": 49,
+          "clasificacion": "Media",
+          "comparativaZona": 51.12462909964121
+        },
+        "valoracion": {
+          "precioM2Zona": 93667,
+          "posicionamiento": "Competitivo",
+          "score": 86
+        }
+      }
+    }
+  }
+}

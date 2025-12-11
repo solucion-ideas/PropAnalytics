@@ -523,6 +523,83 @@
           <!-- Dynamic content -->
         </div>
       </div>
+
+      <!-- Market Analysis -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">
+          <i class="fas fa-chart-line me-2"></i> Análisis de Mercado
+        </h3>
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-label">Días en Mercado</div>
+            <div class="kpi-value" id="kpiDOM">0</div>
+            <div class="kpi-change" id="kpiDOMStatus">-</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Inventario</div>
+            <div class="kpi-value" id="kpiInventory">0</div>
+            <div class="kpi-change" id="kpiInventoryMeses">-</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Absorción</div>
+            <div class="kpi-value" id="kpiAbsorption">0%</div>
+            <div class="kpi-change positive">
+              <i class="fas fa-chart-line"></i> mensual
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Tendencia</div>
+            <div class="kpi-value" id="kpiTrend">-</div>
+            <div class="kpi-change" id="kpiTrendChange">-</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Price Trends Chart -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Tendencias de Precio</h3>
+        <div class="chart-container">
+          <div class="chart-header">
+            <span class="chart-title">Histórico y Predicción</span>
+            <span class="chart-period">24 meses</span>
+          </div>
+          <div class="chart-body">
+            <canvas id="priceTrendsChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Investment Metrics -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">
+          <i class="fas fa-calculator me-2"></i> Métricas de Inversión
+        </h3>
+        <div class="kpi-grid" style="grid-template-columns: 1fr;">
+          <div class="kpi-card">
+            <div class="kpi-label">ROI Anual</div>
+            <div class="kpi-value" id="kpiROI">0%</div>
+            <div class="kpi-change" id="kpiROIDesc">-</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Ingreso Alquiler Mensual</div>
+            <div class="kpi-value" id="kpiRentIncome">$0</div>
+            <div class="kpi-change" id="kpiOccupancy">-</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Rendimiento Total</div>
+            <div class="kpi-value" id="kpiTotalReturn">0%</div>
+            <div class="kpi-change" id="kpiPayback">-</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Market Indicators -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Indicadores de Mercado</h3>
+        <div id="marketIndicators" style="display: flex; flex-direction: column; gap: 0.75rem;">
+          <!-- Dynamic content -->
+        </div>
+      </div>
     </aside>
   </div>
 

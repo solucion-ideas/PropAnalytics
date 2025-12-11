@@ -11,6 +11,7 @@ let currentProject = null;
 let comparablesData = null;
 let capasData = null;
 let poligonosData = null;
+let analisisMercadoData = null;
 let proyectos = [];
 
 // Layer Groups
@@ -36,6 +37,7 @@ let priceDistChart = null;
 let propertyTypeChart = null;
 let nseChart = null;
 let priceRangeChart = null;
+let priceTrendsChart = null;
 
 // ============================================
 // Initialization
@@ -65,6 +67,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderKPIs();
     renderInfrastructure();
     renderAmenities();
+    renderMarketAnalysis();
 
     // Update charts with data
     updateCharts();
@@ -98,6 +101,10 @@ async function loadAllData(projectId) {
     // Load polygons data
     const poligonosRes = await fetch('data/poligonos.json');
     poligonosData = await poligonosRes.json();
+
+    // Load market analysis data
+    const analisisRes = await fetch('data/analisis-mercado.json');
+    analisisMercadoData = await analisisRes.json();
 
   } catch (error) {
     console.error('Error loading data:', error);
@@ -721,6 +728,131 @@ function renderAmenities() {
 }
 
 // ============================================
+// Market Analysis Rendering
+// ============================================
+function renderMarketAnalysis() {
+  if (!analisisMercadoData || !analisisMercadoData.analisis) {
+    console.warn('Market analysis data not loaded');
+    return;
+  }
+
+  const projectId = currentProject.id;
+  const analisis = analisisMercadoData.analisis[projectId];
+
+  if (!analisis) {
+    console.warn(`No market analysis found for project: ${projectId}`);
+    return;
+  }
+
+  // Render Market KPIs
+  const resumen = analisis.resumen;
+
+  // DOM (Days on Market)
+  const domEl = document.getElementById('kpiDOM');
+  if (domEl) {
+    domEl.textContent = `${resumen.domPromedio} días`;
+  }
+  const domStatusEl = document.getElementById('kpiDOMStatus');
+  if (domStatusEl) {
+    const domChange = resumen.domPromedio < 60 ? 'Rápido' : resumen.domPromedio < 90 ? 'Medio' : 'Lento';
+    const domColor = resumen.domPromedio < 60 ? '#38a169' : resumen.domPromedio < 90 ? '#d69e2e' : '#e53e3e';
+    domStatusEl.textContent = domChange;
+    domStatusEl.style.color = domColor;
+  }
+
+  // Inventory
+  const inventoryEl = document.getElementById('kpiInventory');
+  if (inventoryEl) {
+    inventoryEl.textContent = `${resumen.inventarioActual}`;
+  }
+  const inventoryMesesEl = document.getElementById('kpiInventoryMeses');
+  if (inventoryMesesEl) {
+    const mesesInventario = analisis.indicadores.ofertaDemanda.mesesInventario;
+    inventoryMesesEl.textContent = `${mesesInventario} meses stock`;
+  }
+
+  // Absorption Rate
+  const absorptionEl = document.getElementById('kpiAbsorption');
+  if (absorptionEl) {
+    const velocidad = analisis.inversion.metricas.velocidadVenta;
+    absorptionEl.textContent = `${velocidad}`;
+  }
+
+  // Market Trend
+  const trendEl = document.getElementById('kpiTrend');
+  if (trendEl) {
+    trendEl.textContent = resumen.tendencia;
+  }
+  const trendChangeEl = document.getElementById('kpiTrendChange');
+  if (trendChangeEl) {
+    const trendIcon = resumen.tendencia === 'Alcista' ? 'fa-arrow-up' : 'fa-arrow-down';
+    const trendColor = resumen.tendencia === 'Alcista' ? '#38a169' : '#e53e3e';
+    const trendClass = resumen.tendencia === 'Alcista' ? 'positive' : 'negative';
+    trendChangeEl.innerHTML = `<i class="fas ${trendIcon}"></i> ${resumen.variacionAnual.toFixed(1)}% anual`;
+    trendChangeEl.className = `kpi-change ${trendClass}`;
+  }
+
+  // Investment Metrics
+  const roiEl = document.getElementById('kpiROI');
+  if (roiEl) {
+    roiEl.textContent = `${analisis.inversion.rendimiento.roi}%`;
+  }
+
+  const rentIncomeEl = document.getElementById('kpiRentIncome');
+  if (rentIncomeEl) {
+    rentIncomeEl.textContent = formatCurrency(analisis.inversion.alquiler.alquilerMensual);
+  }
+
+  const totalReturnEl = document.getElementById('kpiTotalReturn');
+  if (totalReturnEl) {
+    totalReturnEl.textContent = `${analisis.inversion.rendimiento.rendimientoTotal}%`;
+  }
+
+  const paybackEl = document.getElementById('kpiPayback');
+  if (paybackEl) {
+    paybackEl.textContent = `${analisis.inversion.rendimiento.paybackYears} años`;
+  }
+
+  // Update Price Trends Chart
+  if (priceTrendsChart) {
+    const historico = analisis.historicoPrecio;
+    const prediccion = analisis.prediccionPrecio;
+
+    // Get last 12 months of historical data
+    const last12Months = historico.slice(-12);
+
+    // Combine labels
+    const labels = [
+      ...last12Months.map(m => m.mes),
+      ...prediccion.map(m => m.mes)
+    ];
+
+    // Historical data (last 12 months)
+    const historicalData = last12Months.map(m => m.precioPromedioM2);
+
+    // Add null values for prediction period in historical dataset
+    const historicalWithNulls = [
+      ...historicalData,
+      ...new Array(prediccion.length).fill(null)
+    ];
+
+    // Prediction data (prepend last historical value for continuity)
+    const predictionData = [
+      ...new Array(last12Months.length - 1).fill(null),
+      last12Months[last12Months.length - 1].precioPromedioM2,
+      ...prediccion.map(m => m.precioPredichoM2)
+    ];
+
+    priceTrendsChart.data.labels = labels;
+    priceTrendsChart.data.datasets[0].data = historicalWithNulls;
+    priceTrendsChart.data.datasets[1].data = predictionData;
+    priceTrendsChart.update();
+  }
+
+  console.log('Market analysis rendered for project:', projectId);
+}
+
+// ============================================
 // Charts
 // ============================================
 function initCharts() {
@@ -854,6 +986,74 @@ function initCharts() {
       }
     }
   });
+
+  // Price Trends Chart (Market Analysis)
+  const priceTrendsCtx = document.getElementById('priceTrendsChart')?.getContext('2d');
+  if (priceTrendsCtx) {
+    priceTrendsChart = new Chart(priceTrendsCtx, {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [
+          {
+            label: 'Histórico',
+            data: [],
+            borderColor: '#3182ce',
+            backgroundColor: 'rgba(49, 130, 206, 0.1)',
+            fill: true,
+            tension: 0.4,
+            pointRadius: 0
+          },
+          {
+            label: 'Predicción',
+            data: [],
+            borderColor: '#6b46c1',
+            backgroundColor: 'rgba(107, 70, 193, 0.1)',
+            fill: true,
+            tension: 0.4,
+            borderDash: [5, 5],
+            pointRadius: 0
+          }
+        ]
+      },
+      options: {
+        ...chartDefaults,
+        plugins: {
+          legend: {
+            display: true,
+            position: 'top',
+            labels: {
+              color: '#a0aec0',
+              font: { size: 10 },
+              usePointStyle: true,
+              padding: 10
+            }
+          },
+          tooltip: {
+            mode: 'index',
+            intersect: false,
+            backgroundColor: 'rgba(26, 32, 44, 0.95)',
+            titleColor: '#fff',
+            bodyColor: '#cbd5e0',
+            borderColor: '#3182ce',
+            borderWidth: 1,
+            padding: 12,
+            displayColors: true,
+            callbacks: {
+              label: function(context) {
+                return context.dataset.label + ': ' + formatCurrency(context.parsed.y);
+              }
+            }
+          }
+        },
+        interaction: {
+          mode: 'nearest',
+          axis: 'x',
+          intersect: false
+        }
+      }
+    });
+  }
 }
 
 function updateCharts() {
