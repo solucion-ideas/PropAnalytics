@@ -1,0 +1,1521 @@
+{
+  "proyectos": [
+    {
+      "id": "mitikah",
+      "nombre": "Torre Mitikah",
+      "desarrollador": "Fibra Uno / Inmuebles Carso",
+      "ubicacion": {
+        "direccion": "Real de Mayorazgo 130, Xoco",
+        "colonia": "Xoco",
+        "alcaldia": "Benito Juarez",
+        "ciudad": "Ciudad de Mexico",
+        "estado": "CDMX",
+        "cp": "03330",
+        "lat": 19.3589,
+        "lng": -99.1623
+      },
+      "caracteristicas": {
+        "altura": 267.3,
+        "niveles": 65,
+        "unidades": 675,
+        "areaTotalM2": 98288,
+        "arquitecto": "Pelli Clarke Pelli Architects",
+        "anoInicio": 2015,
+        "anoTermino": 2022,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Uso Mixto"
+      },
+      "departamentos": {
+        "tiposDisponibles": 9,
+        "superficieMinM2": 68,
+        "superficieMaxM2": 314,
+        "recamarasMin": 1,
+        "recamarasMax": 3,
+        "precioMinMXN": 5900000,
+        "precioMaxMXN": 38161825,
+        "precioM2Promedio": 95000,
+        "rentaMinMXN": 21000,
+        "rentaMaxMXN": 40000
+      },
+      "amenidades": [
+        "Sky Pool",
+        "Gimnasio Premium",
+        "Sala de Cine",
+        "Spa",
+        "Salones de Eventos",
+        "Business Center",
+        "Concierge 24/7",
+        "Pet Friendly",
+        "Centro Comercial Integrado",
+        "Estacionamiento Subterraneo"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Habitacional Mixto (HM)",
+        "densidad": "Alta",
+        "coeficienteOcupacion": 0.6,
+        "coeficienteUtilizacion": 8
+      },
+      "infraestructura": {
+        "metro": [
+          "Coyoacan (Linea 3)",
+          "General Anaya (Linea 2)"
+        ],
+        "metrobus": [
+          "Linea 1 - Rio Churubusco"
+        ],
+        "vialidades": [
+          "Av. Universidad",
+          "Rio Churubusco",
+          "Eje 8 Sur"
+        ],
+        "hospitales": [
+          "Hospital Angeles Pedregal",
+          "Centro Medico Nacional Siglo XXI"
+        ],
+        "escuelas": [
+          "UNAM Ciudad Universitaria",
+          "Instituto Patria"
+        ],
+        "centrosComerciales": [
+          "Centro Comercial Mitikah",
+          "Perisur",
+          "Plaza Universidad"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B, C+",
+        "poblacionZona": 425972,
+        "densidadPoblacion": 12850,
+        "edadPromedio": 35,
+        "ingresoPronedioHogar": 85000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 8.5,
+        "proyeccion5Anos": 45,
+        "factoresPlusvalia": [
+          "Infraestructura de transporte",
+          "Centro comercial integrado",
+          "Zona cultural cercana",
+          "Conectividad"
+        ],
+        "tendencia": "Crecimiento sostenido"
+      },
+      "imagen": "https://www.mitikah.com.mx/images/componentes/Mitikah_ciudadviva.jpg?crc=2079717921",
+      "imagenMapa": "https://www.mitikah.com.mx/images/componentes/Mitikah_ciudadviva.jpg?crc=2079717921"
+    },
+    {
+      "id": "torre-koi",
+      "nombre": "Torre KOI",
+      "desarrollador": "VFO / Inmobilia",
+      "ubicacion": {
+        "direccion": "Av. Eugenio Garza Laguera 106, Valle Oriente",
+        "colonia": "Valle Oriente",
+        "alcaldia": "San Pedro Garza Garcia",
+        "ciudad": "Monterrey",
+        "estado": "Nuevo Leon",
+        "cp": "66269",
+        "lat": 25.6514,
+        "lng": -100.3358
+      },
+      "caracteristicas": {
+        "altura": 279.5,
+        "niveles": 64,
+        "unidades": 236,
+        "areaTotalM2": 85000,
+        "arquitecto": "VFO Arquitectos",
+        "anoInicio": 2013,
+        "anoTermino": 2017,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Uso Mixto"
+      },
+      "departamentos": {
+        "tiposDisponibles": 12,
+        "superficieMinM2": 130,
+        "superficieMaxM2": 832,
+        "recamarasMin": 2,
+        "recamarasMax": 4,
+        "precioMinMXN": 15000000,
+        "precioMaxMXN": 65000000,
+        "precioM2Promedio": 120000,
+        "rentaMinMXN": 56000,
+        "rentaMaxMXN": 150000
+      },
+      "amenidades": [
+        "Alberca Infinity Semi-Olimpica",
+        "Gimnasio Equipado",
+        "Sala de Cine",
+        "6 Salas de Visitas Privadas",
+        "Salon de Eventos (150 personas)",
+        "Area de Yoga",
+        "Sauna y Vapor",
+        "Solarium",
+        "Salon de Juegos Infantil",
+        "Certificacion LEED Plata"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Comercial Servicios Mixto",
+        "densidad": "Alta",
+        "coeficienteOcupacion": 0.65,
+        "coeficienteUtilizacion": 10
+      },
+      "infraestructura": {
+        "metro": [
+          "Estacion Valle (Linea 6 - en construccion)"
+        ],
+        "metrobus": [],
+        "vialidades": [
+          "Av. Lazaro Cardenas",
+          "Av. Gomez Morin",
+          "Av. Ricardo Margain"
+        ],
+        "hospitales": [
+          "Hospital San Jose TecSalud",
+          "Christus Muguerza Alta Especialidad"
+        ],
+        "escuelas": [
+          "Tec de Monterrey Campus MTY",
+          "UDEM"
+        ],
+        "centrosComerciales": [
+          "Galerias Valle Oriente",
+          "Fashion Drive",
+          "Esfera City Center"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 137850,
+        "densidadPoblacion": 4200,
+        "edadPromedio": 38,
+        "ingresoPronedioHogar": 185000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 12.3,
+        "proyeccion5Anos": 65,
+        "factoresPlusvalia": [
+          "Edificio mas alto de Mexico",
+          "Zona corporativa premium",
+          "Alta demanda extranjera",
+          "Certificacion LEED"
+        ],
+        "tendencia": "Alto crecimiento"
+      },
+      "imagen": "https://mrp.com.mx/realestate/wp-content/uploads/2022/02/header_torre_koi_mty.jpg",
+      "imagenMapa": "https://mrp.com.mx/realestate/wp-content/uploads/2022/02/header_torre_koi_mty.jpg"
+    },
+    {
+      "id": "be-grand-pedregal",
+      "nombre": "Be Grand Alto Pedregal",
+      "desarrollador": "Be Grand",
+      "ubicacion": {
+        "direccion": "Periferico Sur 4020",
+        "colonia": "Pedregal de Carrasco",
+        "alcaldia": "Coyoacan",
+        "ciudad": "Ciudad de Mexico",
+        "estado": "CDMX",
+        "cp": "04700",
+        "lat": 19.3067,
+        "lng": -99.1874
+      },
+      "caracteristicas": {
+        "altura": 120,
+        "niveles": 32,
+        "unidades": 450,
+        "areaTotalM2": 45000,
+        "arquitecto": "Be Grand Arquitectos",
+        "anoInicio": 2018,
+        "anoTermino": 2022,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Residencial Plus"
+      },
+      "departamentos": {
+        "tiposDisponibles": 8,
+        "superficieMinM2": 61,
+        "superficieMaxM2": 136,
+        "recamarasMin": 1,
+        "recamarasMax": 3,
+        "precioMinMXN": 3732752,
+        "precioMaxMXN": 9500000,
+        "precioM2Promedio": 72000,
+        "rentaMinMXN": 25500,
+        "rentaMaxMXN": 40000
+      },
+      "amenidades": [
+        "Sky Lounge",
+        "Alberca",
+        "Pet Area",
+        "Business Center",
+        "Gimnasio",
+        "Kids Club",
+        "Salon de Eventos",
+        "Spa con Vestidores",
+        "Sports Bar",
+        "6 Elevadores",
+        "Cancha de Padel"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Habitacional (H)",
+        "densidad": "Media-Alta",
+        "coeficienteOcupacion": 0.5,
+        "coeficienteUtilizacion": 4.5
+      },
+      "infraestructura": {
+        "metro": [
+          "Universidad (Linea 3)"
+        ],
+        "metrobus": [
+          "Linea 1 - Perisur"
+        ],
+        "vialidades": [
+          "Periferico Sur",
+          "Insurgentes Sur",
+          "Av. del Iman"
+        ],
+        "hospitales": [
+          "Hospital Angeles Pedregal",
+          "ABC Observatorio"
+        ],
+        "escuelas": [
+          "Colegio Olinca",
+          "UNAM",
+          "Tecnologico de Monterrey CCM"
+        ],
+        "centrosComerciales": [
+          "Perisur",
+          "Galerias Coapa",
+          "Town Center El Rosario"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B, C+",
+        "poblacionZona": 620416,
+        "densidadPoblacion": 11450,
+        "edadPromedio": 36,
+        "ingresoPronedioHogar": 75000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 6.8,
+        "proyeccion5Anos": 38,
+        "factoresPlusvalia": [
+          "Zona universitaria",
+          "Alta demanda residencial",
+          "Buena conectividad",
+          "Servicios completos"
+        ],
+        "tendencia": "Crecimiento estable"
+      },
+      "imagen": "https://images.homify.com/c_fill,f_auto,h_1400,q_auto/v1558453147/p/photo/image/3063624/IMG_4296.jpg",
+      "imagenMapa": "https://images.homify.com/c_fill,f_auto,h_1400,q_auto/v1558453147/p/photo/image/3063624/IMG_4296.jpg"
+    },
+    {
+      "id": "andares-puerta-hierro",
+      "nombre": "Torres Landmark Andares",
+      "desarrollador": "Grupo Inmobiliario Andares",
+      "ubicacion": {
+        "direccion": "Av. Patria 2085",
+        "colonia": "Puerta de Hierro",
+        "alcaldia": "Zapopan",
+        "ciudad": "Guadalajara",
+        "estado": "Jalisco",
+        "cp": "45116",
+        "lat": 20.7108,
+        "lng": -103.4125
+      },
+      "caracteristicas": {
+        "altura": 165,
+        "niveles": 42,
+        "unidades": 280,
+        "areaTotalM2": 55000,
+        "arquitecto": "Sordo Madaleno Arquitectos",
+        "anoInicio": 2019,
+        "anoTermino": 2024,
+        "estatus": "En comercializacion",
+        "tipoDesarrollo": "Uso Mixto Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 10,
+        "superficieMinM2": 95,
+        "superficieMaxM2": 350,
+        "recamarasMin": 1,
+        "recamarasMax": 4,
+        "precioMinMXN": 7600000,
+        "precioMaxMXN": 25000000,
+        "precioM2Promedio": 85000,
+        "rentaMinMXN": 35000,
+        "rentaMaxMXN": 73000
+      },
+      "amenidades": [
+        "Rooftop Lounge",
+        "Infinity Pool",
+        "Gimnasio de Alto Rendimiento",
+        "Spa Completo",
+        "Wine Cellar",
+        "Cinema Room",
+        "Coworking Space",
+        "Golf Simulator",
+        "Pet Spa",
+        "Concierge 24/7"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Mixto Comercial-Habitacional",
+        "densidad": "Alta",
+        "coeficienteOcupacion": 0.55,
+        "coeficienteUtilizacion": 6
+      },
+      "infraestructura": {
+        "metro": [],
+        "metrobus": [
+          "Mi Macro Periferico"
+        ],
+        "vialidades": [
+          "Av. Patria",
+          "Periferico Norte",
+          "Av. Acueducto"
+        ],
+        "hospitales": [
+          "Hospital Puerta de Hierro",
+          "Hospital Country 2000"
+        ],
+        "escuelas": [
+          "ITESO",
+          "UP Campus Guadalajara",
+          "Tec de Monterrey GDL"
+        ],
+        "centrosComerciales": [
+          "Andares",
+          "La Isla Andares",
+          "Punto Sur"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 89500,
+        "densidadPoblacion": 3200,
+        "edadPromedio": 34,
+        "ingresoPronedioHogar": 145000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 10.2,
+        "proyeccion5Anos": 55,
+        "factoresPlusvalia": [
+          "Zona mas exclusiva de GDL",
+          "Centro comercial Andares",
+          "Demanda tech",
+          "Inversiones extranjeras"
+        ],
+        "tendencia": "Alto crecimiento"
+      },
+      "imagen": "https://images.adsttc.com/media/images/589c/5450/e58e/ce64/5e00/0112/newsletter/2018_THE_LANDMARK_SMA_WEB_RENDER_by_CGVeron_01.jpg?1486640203589c/5450/e58e/ce64/5e00/0112/newsletter/2018_THE_LANDMARK_SMA_WEB_RENDER_by_CGVeron_01.jpg?1486640203"
+    },
+    {
+      "id": "bosque-real",
+      "nombre": "Central Park Bosque Real",
+      "desarrollador": "GIM Living Spaces",
+      "ubicacion": {
+        "direccion": "Blvd. Bosque Real 1000",
+        "colonia": "Bosque Real",
+        "alcaldia": "Huixquilucan",
+        "ciudad": "Huixquilucan",
+        "estado": "Estado de Mexico",
+        "cp": "52776",
+        "lat": 19.3982,
+        "lng": -99.2847
+      },
+      "caracteristicas": {
+        "altura": 95,
+        "niveles": 27,
+        "unidades": 210,
+        "areaTotalM2": 38000,
+        "arquitecto": "GIM Living Spaces",
+        "anoInicio": 2020,
+        "anoTermino": 2025,
+        "estatus": "En construccion",
+        "tipoDesarrollo": "Residencial Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 6,
+        "superficieMinM2": 104,
+        "superficieMaxM2": 304,
+        "recamarasMin": 2,
+        "recamarasMax": 4,
+        "precioMinMXN": 7980000,
+        "precioMaxMXN": 19920000,
+        "precioM2Promedio": 78000,
+        "rentaMinMXN": 45000,
+        "rentaMaxMXN": 85000
+      },
+      "amenidades": [
+        "Alberca Semi-Olimpica Techada",
+        "Campo de Golf 18 Hoyos",
+        "Club House",
+        "Gimnasio Premium",
+        "Area de Yoga Exterior",
+        "Cancha de Padel",
+        "Ludoteca",
+        "Lobby Principal",
+        "Salon de Usos Multiples",
+        "Terraza Grill"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Habitacional Residencial (HR)",
+        "densidad": "Media",
+        "coeficienteOcupacion": 0.4,
+        "coeficienteUtilizacion": 3.5
+      },
+      "infraestructura": {
+        "metro": [],
+        "metrobus": [],
+        "vialidades": [
+          "Autopista Mexico-Toluca",
+          "Av. Jesus del Monte",
+          "Periferico Poniente"
+        ],
+        "hospitales": [
+          "Hospital ABC Santa Fe",
+          "Hospital Espanol"
+        ],
+        "escuelas": [
+          "Universidad Anahuac",
+          "Colegio Britanico",
+          "Liceo Mexicano Japones"
+        ],
+        "centrosComerciales": [
+          "Centro Santa Fe",
+          "Samara Shops",
+          "Paseo Interlomas"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 42500,
+        "densidadPoblacion": 1850,
+        "edadPromedio": 42,
+        "ingresoPronedioHogar": 165000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 7.5,
+        "proyeccion5Anos": 42,
+        "factoresPlusvalia": [
+          "Campo de golf exclusivo",
+          "Seguridad premium",
+          "Entorno natural",
+          "Cercanía Santa Fe"
+        ],
+        "tendencia": "Crecimiento moderado"
+      },
+      "imagen": "https://live.staticflickr.com/7918/46995098081_0dfc98b88b_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80"
+    },
+    {
+      "id": "reforma-222",
+      "nombre": "Reforma 222",
+      "desarrollador": "Fibra Uno",
+      "ubicacion": {
+        "direccion": "Paseo de la Reforma 222",
+        "colonia": "Juarez",
+        "alcaldia": "Cuauhtemoc",
+        "ciudad": "Ciudad de Mexico",
+        "estado": "CDMX",
+        "cp": "06600",
+        "lat": 19.4268,
+        "lng": -99.1644
+      },
+      "caracteristicas": {
+        "altura": 125,
+        "niveles": 28,
+        "unidades": 180,
+        "areaTotalM2": 42000,
+        "arquitecto": "Teodoro Gonzalez de Leon",
+        "anoInicio": 2006,
+        "anoTermino": 2008,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Uso Mixto"
+      },
+      "departamentos": {
+        "tiposDisponibles": 7,
+        "superficieMinM2": 85,
+        "superficieMaxM2": 280,
+        "recamarasMin": 1,
+        "recamarasMax": 3,
+        "precioMinMXN": 9500000,
+        "precioMaxMXN": 32000000,
+        "precioM2Promedio": 115000,
+        "rentaMinMXN": 45000,
+        "rentaMaxMXN": 95000
+      },
+      "amenidades": [
+        "Terraza con Vista Panoramica",
+        "Gimnasio Equipado",
+        "Business Lounge",
+        "Roof Garden",
+        "Valet Parking",
+        "Seguridad 24/7",
+        "Salon de Eventos",
+        "Tiendas y Restaurantes",
+        "Acceso Directo a Metro"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Comercial-Habitacional Mixto",
+        "densidad": "Muy Alta",
+        "coeficienteOcupacion": 0.7,
+        "coeficienteUtilizacion": 9.5
+      },
+      "infraestructura": {
+        "metro": [
+          "Sevilla (Linea 1)",
+          "Insurgentes (Linea 1)"
+        ],
+        "metrobus": [
+          "Linea 1 - Insurgentes",
+          "Linea 7"
+        ],
+        "vialidades": [
+          "Paseo de la Reforma",
+          "Av. Insurgentes",
+          "Chapultepec"
+        ],
+        "hospitales": [
+          "Hospital Espanol",
+          "ABC Observatorio"
+        ],
+        "escuelas": [
+          "UNAM Posgrados",
+          "Universidad del Valle de Mexico"
+        ],
+        "centrosComerciales": [
+          "Zona Rosa",
+          "Antara Polanco"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 545000,
+        "densidadPoblacion": 15800,
+        "edadPromedio": 33,
+        "ingresoPronedioHogar": 125000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 9.8,
+        "proyeccion5Anos": 52,
+        "factoresPlusvalia": [
+          "Ubicacion Reforma",
+          "Icono arquitectonico",
+          "Zona financiera",
+          "Conectividad excepcional"
+        ],
+        "tendencia": "Alto crecimiento"
+      },
+      "imagen": "https://live.staticflickr.com/4057/4349836996_5cc96d5632_b.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=600&q=80"
+    },
+    {
+      "id": "chapultepec-uno",
+      "nombre": "Chapultepec Uno",
+      "desarrollador": "Artigas Arquitectos",
+      "ubicacion": {
+        "direccion": "Campos Eliseos 345",
+        "colonia": "Polanco",
+        "alcaldia": "Miguel Hidalgo",
+        "ciudad": "Ciudad de Mexico",
+        "estado": "CDMX",
+        "cp": "11560",
+        "lat": 19.424,
+        "lng": -99.1758
+      },
+      "caracteristicas": {
+        "altura": 241,
+        "niveles": 58,
+        "unidades": 360,
+        "areaTotalM2": 85000,
+        "arquitecto": "Artigas Arquitectos",
+        "anoInicio": 2017,
+        "anoTermino": 2019,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Uso Mixto Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 11,
+        "superficieMinM2": 92,
+        "superficieMaxM2": 385,
+        "recamarasMin": 1,
+        "recamarasMax": 4,
+        "precioMinMXN": 12000000,
+        "precioMaxMXN": 45000000,
+        "precioM2Promedio": 135000,
+        "rentaMinMXN": 55000,
+        "rentaMaxMXN": 125000
+      },
+      "amenidades": [
+        "Sky Lounge Piso 57",
+        "Infinity Pool con Vista Chapultepec",
+        "Gimnasio TechnoGym",
+        "Spa de Lujo",
+        "Wine Cellar Privado",
+        "Business Center Premium",
+        "Cine Privado",
+        "Valet Parking",
+        "Concierge Internacional",
+        "Pet Grooming"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Mixto Premium",
+        "densidad": "Muy Alta",
+        "coeficienteOcupacion": 0.75,
+        "coeficienteUtilizacion": 12
+      },
+      "infraestructura": {
+        "metro": [
+          "Polanco (Linea 7)",
+          "Auditorio (Linea 7)"
+        ],
+        "metrobus": [
+          "Linea 7 - Campos Eliseos"
+        ],
+        "vialidades": [
+          "Paseo de la Reforma",
+          "Av. Ejercito Nacional",
+          "Campos Eliseos"
+        ],
+        "hospitales": [
+          "ABC Observatorio",
+          "Hospital Espanol"
+        ],
+        "escuelas": [
+          "American School Foundation",
+          "Liceo Franco Mexicano",
+          "Universidad Anahuac"
+        ],
+        "centrosComerciales": [
+          "Antara Polanco",
+          "Palacio de Hierro Polanco",
+          "Plaza Carso"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A+",
+        "poblacionZona": 118500,
+        "densidadPoblacion": 5600,
+        "edadPromedio": 38,
+        "ingresoPronedioHogar": 245000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 11.5,
+        "proyeccion5Anos": 62,
+        "factoresPlusvalia": [
+          "Polanco Premium",
+          "Parque Chapultepec",
+          "Zona corporativa clase A",
+          "Demanda internacional"
+        ],
+        "tendencia": "Alto crecimiento sostenido"
+      },
+      "imagen": "https://live.staticflickr.com/65535/49610740762_1b5513c9cd_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80"
+    },
+    {
+      "id": "torre-bbva",
+      "nombre": "Torre BBVA Mexico",
+      "desarrollador": "BBVA / Hines",
+      "ubicacion": {
+        "direccion": "Paseo de la Reforma 510",
+        "colonia": "Juarez",
+        "alcaldia": "Cuauhtemoc",
+        "ciudad": "Ciudad de Mexico",
+        "estado": "CDMX",
+        "cp": "06600",
+        "lat": 19.4305,
+        "lng": -99.1656
+      },
+      "caracteristicas": {
+        "altura": 235,
+        "niveles": 50,
+        "unidades": 420,
+        "areaTotalM2": 78000,
+        "arquitecto": "Legorreta + Legorreta / Rogers Stirk Harbour + Partners",
+        "anoInicio": 2013,
+        "anoTermino": 2016,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Uso Mixto Corporativo"
+      },
+      "departamentos": {
+        "tiposDisponibles": 8,
+        "superficieMinM2": 88,
+        "superficieMaxM2": 295,
+        "recamarasMin": 1,
+        "recamarasMax": 3,
+        "precioMinMXN": 11500000,
+        "precioMaxMXN": 38000000,
+        "precioM2Promedio": 128000,
+        "rentaMinMXN": 52000,
+        "rentaMaxMXN": 115000
+      },
+      "amenidades": [
+        "Sky Deck Piso 50",
+        "Gimnasio Panoramico",
+        "Business Lounge",
+        "Terraza Verde",
+        "Concierge Premium",
+        "Valet Parking",
+        "Seguridad Corporativa 24/7",
+        "Sala de Juntas Ejecutivas",
+        "Certificacion LEED Gold"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Comercial-Habitacional Premium",
+        "densidad": "Muy Alta",
+        "coeficienteOcupacion": 0.7,
+        "coeficienteUtilizacion": 11
+      },
+      "infraestructura": {
+        "metro": [
+          "Sevilla (Linea 1)",
+          "Insurgentes (Linea 1)"
+        ],
+        "metrobus": [
+          "Linea 1 - Insurgentes",
+          "Linea 7 - Reforma"
+        ],
+        "vialidades": [
+          "Paseo de la Reforma",
+          "Av. Insurgentes",
+          "Av. Juarez"
+        ],
+        "hospitales": [
+          "Hospital Espanol",
+          "ABC Observatorio"
+        ],
+        "escuelas": [
+          "UNAM CU",
+          "ITAM"
+        ],
+        "centrosComerciales": [
+          "Reforma 222",
+          "Antara Polanco",
+          "Zona Rosa"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 615000,
+        "densidadPoblacion": 16200,
+        "edadPromedio": 34,
+        "ingresoPronedioHogar": 145000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 10.5,
+        "proyeccion5Anos": 56,
+        "factoresPlusvalia": [
+          "Corredor Reforma",
+          "Certificacion sustentable",
+          "Zona financiera premium",
+          "Icono arquitectonico"
+        ],
+        "tendencia": "Alto crecimiento"
+      },
+      "imagen": "https://live.staticflickr.com/7566/15879091786_caf51c5b76_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=600&q=80"
+    },
+    {
+      "id": "torre-rise",
+      "nombre": "Torre Rise Monterrey",
+      "desarrollador": "Ancore Group",
+      "ubicacion": {
+        "direccion": "Av. Constitucion entre Hidalgo",
+        "colonia": "Obispado",
+        "alcaldia": "Monterrey",
+        "ciudad": "Monterrey",
+        "estado": "Nuevo Leon",
+        "cp": "64060",
+        "lat": 25.6766,
+        "lng": -100.3185
+      },
+      "caracteristicas": {
+        "altura": 484,
+        "niveles": 122,
+        "unidades": 580,
+        "areaTotalM2": 185000,
+        "arquitecto": "Sordo Madaleno Arquitectos / Ancore",
+        "anoInicio": 2022,
+        "anoTermino": 2027,
+        "estatus": "En construccion",
+        "tipoDesarrollo": "Uso Mixto Ultra Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 9,
+        "superficieMinM2": 114,
+        "superficieMaxM2": 485,
+        "recamarasMin": 2,
+        "recamarasMax": 5,
+        "precioMinMXN": 18500000,
+        "precioMaxMXN": 85000000,
+        "precioM2Promedio": 165000,
+        "rentaMinMXN": 75000,
+        "rentaMaxMXN": 220000
+      },
+      "amenidades": [
+        "Sky Lobby Piso 100",
+        "Alberca Infinity Piso 80",
+        "Spa de Clase Mundial",
+        "Gimnasio Premium 3 Niveles",
+        "Restaurante Gourmet",
+        "Hotel 5 Estrellas Integrado",
+        "Helipuerto",
+        "Business Center Internacional",
+        "Cinema IMAX Privado",
+        "Certificacion LEED Platinum"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Mixto Ultra Premium",
+        "densidad": "Muy Alta",
+        "coeficienteOcupacion": 0.8,
+        "coeficienteUtilizacion": 15
+      },
+      "infraestructura": {
+        "metro": [
+          "General Anaya (Linea 2)"
+        ],
+        "metrobus": [],
+        "vialidades": [
+          "Av. Constitucion",
+          "Av. Hidalgo",
+          "Morones Prieto"
+        ],
+        "hospitales": [
+          "Hospital Universitario UANL",
+          "Hospital San Jose"
+        ],
+        "escuelas": [
+          "Tec de Monterrey",
+          "UANL"
+        ],
+        "centrosComerciales": [
+          "Galerias Monterrey",
+          "Plaza Fiesta San Agustin",
+          "Paseo San Pedro"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A+/A",
+        "poblacionZona": 285000,
+        "densidadPoblacion": 7800,
+        "edadPromedio": 36,
+        "ingresoPronedioHogar": 195000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 15.8,
+        "proyeccion5Anos": 85,
+        "factoresPlusvalia": [
+          "Edificio mas alto de Latinoamerica",
+          "Nearshoring boom",
+          "Inversion extranjera masiva",
+          "Icono internacional"
+        ],
+        "tendencia": "Crecimiento exponencial"
+      },
+      "imagen": "https://live.staticflickr.com/4521/26431818629_01e2dfe8e3_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80"
+    },
+    {
+      "id": "torre-legend",
+      "nombre": "Torre Legend Guadalajara",
+      "desarrollador": "Grupo Lar",
+      "ubicacion": {
+        "direccion": "Av. Lazaro Cardenas 3000",
+        "colonia": "Chapalita",
+        "alcaldia": "Zapopan",
+        "ciudad": "Guadalajara",
+        "estado": "Jalisco",
+        "cp": "45030",
+        "lat": 20.6937,
+        "lng": -103.3961
+      },
+      "caracteristicas": {
+        "altura": 190,
+        "niveles": 52,
+        "unidades": 385,
+        "areaTotalM2": 68000,
+        "arquitecto": "Grupo Lar Arquitectos",
+        "anoInicio": 2021,
+        "anoTermino": 2026,
+        "estatus": "En construccion",
+        "tipoDesarrollo": "Uso Mixto Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 10,
+        "superficieMinM2": 85,
+        "superficieMaxM2": 315,
+        "recamarasMin": 1,
+        "recamarasMax": 4,
+        "precioMinMXN": 6800000,
+        "precioMaxMXN": 28500000,
+        "precioM2Promedio": 89000,
+        "rentaMinMXN": 32000,
+        "rentaMaxMXN": 85000
+      },
+      "amenidades": [
+        "Sky Pool Piso 50",
+        "Gimnasio Panoramico",
+        "Spa & Wellness Center",
+        "Coworking Spaces",
+        "Cinema Lounge",
+        "Business Center",
+        "Kids Club",
+        "Pet Area Premium",
+        "Roof Garden",
+        "Concierge 24/7"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Mixto Comercial",
+        "densidad": "Alta",
+        "coeficienteOcupacion": 0.65,
+        "coeficienteUtilizacion": 9
+      },
+      "infraestructura": {
+        "metro": [
+          "Linea 3 - Juarez"
+        ],
+        "metrobus": [
+          "Mi Macro Calzada"
+        ],
+        "vialidades": [
+          "Av. Lazaro Cardenas",
+          "Av. Americas",
+          "Av. Patria"
+        ],
+        "hospitales": [
+          "Hospital Puerta de Hierro",
+          "Hospital San Javier"
+        ],
+        "escuelas": [
+          "Tec de Monterrey GDL",
+          "ITESO",
+          "Universidad Panamericana"
+        ],
+        "centrosComerciales": [
+          "Galerias Guadalajara",
+          "Plaza del Sol",
+          "Punto Sao Paulo"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 425000,
+        "densidadPoblacion": 8200,
+        "edadPromedio": 35,
+        "ingresoPronedioHogar": 125000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 11.2,
+        "proyeccion5Anos": 60,
+        "factoresPlusvalia": [
+          "Torre mas alta de GDL",
+          "Corredor corporativo",
+          "Tech hub en crecimiento",
+          "Inversion estadounidense"
+        ],
+        "tendencia": "Alto crecimiento"
+      },
+      "imagen": "https://live.staticflickr.com/65535/50456891982_c93a51d4a0_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80"
+    },
+    {
+      "id": "shark-tower",
+      "nombre": "Shark Tower Puerto Cancun",
+      "desarrollador": "Puerto Cancun Development",
+      "ubicacion": {
+        "direccion": "Blvd. Kukulcan Km 1.8",
+        "colonia": "Puerto Cancun",
+        "alcaldia": "Benito Juarez",
+        "ciudad": "Cancun",
+        "estado": "Quintana Roo",
+        "cp": "77500",
+        "lat": 21.1635,
+        "lng": -86.8145
+      },
+      "caracteristicas": {
+        "altura": 95,
+        "niveles": 24,
+        "unidades": 185,
+        "areaTotalM2": 35000,
+        "arquitecto": "Arquitectoma",
+        "anoInicio": 2020,
+        "anoTermino": 2024,
+        "estatus": "En comercializacion",
+        "tipoDesarrollo": "Residencial Turistico Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 8,
+        "superficieMinM2": 98,
+        "superficieMaxM2": 285,
+        "recamarasMin": 2,
+        "recamarasMax": 4,
+        "precioMinMXN": 9500000,
+        "precioMaxMXN": 28000000,
+        "precioM2Promedio": 95000,
+        "rentaMinMXN": 45000,
+        "rentaMaxMXN": 105000
+      },
+      "amenidades": [
+        "Beach Club Privado",
+        "Marina Yacht Club",
+        "Infinity Pool Vista al Caribe",
+        "Spa de Lujo",
+        "Gimnasio Vista al Mar",
+        "Restaurante Gourmet",
+        "Rooftop Bar & Lounge",
+        "Programa de Rentas Vacacionales",
+        "Concierge Turistico",
+        "Golf Club Acceso"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Turistico Residencial Premium",
+        "densidad": "Media-Alta",
+        "coeficienteOcupacion": 0.5,
+        "coeficienteUtilizacion": 5
+      },
+      "infraestructura": {
+        "metro": [],
+        "metrobus": [],
+        "vialidades": [
+          "Blvd. Kukulcan",
+          "Av. Bonampak",
+          "Av. Tulum"
+        ],
+        "hospitales": [
+          "Hospital Galenia",
+          "Amerimed Cancun"
+        ],
+        "escuelas": [
+          "Colegio Cancun",
+          "Universidad Anahuac Cancun"
+        ],
+        "centrosComerciales": [
+          "La Isla Shopping Village",
+          "Puerto Cancun Golf Club",
+          "Plaza Las Americas"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 185000,
+        "densidadPoblacion": 3200,
+        "edadPromedio": 38,
+        "ingresoPronedioHogar": 98000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 14.5,
+        "proyeccion5Anos": 78,
+        "factoresPlusvalia": [
+          "Turismo premium internacional",
+          "Marina privada",
+          "Frente al Caribe Mexicano",
+          "ROI turistico alto"
+        ],
+        "tendencia": "Crecimiento acelerado"
+      },
+      "imagen": "https://live.staticflickr.com/4467/37515565796_50c5ad65f3_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80"
+    },
+    {
+      "id": "icono-playa",
+      "nombre": "Icono Playa del Carmen",
+      "desarrollador": "Inmobilia International",
+      "ubicacion": {
+        "direccion": "Calle 34 Norte entre 5ta y 10ma Av",
+        "colonia": "Centro",
+        "alcaldia": "Solidaridad",
+        "ciudad": "Playa del Carmen",
+        "estado": "Quintana Roo",
+        "cp": "77710",
+        "lat": 20.6295,
+        "lng": -87.0742
+      },
+      "caracteristicas": {
+        "altura": 68,
+        "niveles": 16,
+        "unidades": 42,
+        "areaTotalM2": 8500,
+        "arquitecto": "Inmobilia Arquitectos",
+        "anoInicio": 2015,
+        "anoTermino": 2017,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Residencial Boutique Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 4,
+        "superficieMinM2": 85,
+        "superficieMaxM2": 210,
+        "recamarasMin": 1,
+        "recamarasMax": 3,
+        "precioMinMXN": 8200000,
+        "precioMaxMXN": 21500000,
+        "precioM2Promedio": 98000,
+        "rentaMinMXN": 42000,
+        "rentaMaxMXN": 85000
+      },
+      "amenidades": [
+        "Rooftop Pool Vista 5ta Avenida",
+        "Beach Club Exclusivo",
+        "Sky Bar & Lounge",
+        "Spa Holistico",
+        "Gimnasio Boutique",
+        "Concierge de Lujo",
+        "Programa de Rentas Premium",
+        "Valet Parking",
+        "Seguridad 24/7"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Turistico Habitacional",
+        "densidad": "Alta",
+        "coeficienteOcupacion": 0.6,
+        "coeficienteUtilizacion": 7.5
+      },
+      "infraestructura": {
+        "metro": [],
+        "metrobus": [],
+        "vialidades": [
+          "Carretera Federal 307",
+          "Av. 5ta Avenida",
+          "Calle 34 Norte"
+        ],
+        "hospitales": [
+          "Hospital Riviera Maya",
+          "Costamed Playa"
+        ],
+        "escuelas": [
+          "Colegio Ingles Playa",
+          "American School PDC"
+        ],
+        "centrosComerciales": [
+          "Quinta Alegria",
+          "Paseo del Carmen",
+          "Plaza Las Perlas"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 295000,
+        "densidadPoblacion": 5900,
+        "edadPromedio": 35,
+        "ingresoPronedioHogar": 92000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 15.2,
+        "proyeccion5Anos": 82,
+        "factoresPlusvalia": [
+          "5ta Avenida premium",
+          "Turismo internacional",
+          "Riviera Maya",
+          "ROI vacacional alto"
+        ],
+        "tendencia": "Crecimiento exponencial"
+      },
+      "imagen": "https://live.staticflickr.com/4476/37515567716_a5c96bd1c3_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=600&q=80"
+    },
+    {
+      "id": "distrito-chapultepec",
+      "nombre": "Distrito Chapultepec",
+      "desarrollador": "Peninsula Desarrollos",
+      "ubicacion": {
+        "direccion": "Calle Vidrio 1984 esquina Av. Chapultepec",
+        "colonia": "Americana",
+        "alcaldia": "Guadalajara",
+        "ciudad": "Guadalajara",
+        "estado": "Jalisco",
+        "cp": "44160",
+        "lat": 20.6728,
+        "lng": -103.3645
+      },
+      "caracteristicas": {
+        "altura": 82,
+        "niveles": 22,
+        "unidades": 158,
+        "areaTotalM2": 28000,
+        "arquitecto": "Peninsula Arquitectos",
+        "anoInicio": 2020,
+        "anoTermino": 2023,
+        "estatus": "En comercializacion",
+        "tipoDesarrollo": "Residencial Urbano Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 6,
+        "superficieMinM2": 78,
+        "superficieMaxM2": 195,
+        "recamarasMin": 1,
+        "recamarasMax": 3,
+        "precioMinMXN": 4850000,
+        "precioMaxMXN": 13500000,
+        "precioM2Promedio": 68000,
+        "rentaMinMXN": 22000,
+        "rentaMaxMXN": 48000
+      },
+      "amenidades": [
+        "Rooftop Lounge",
+        "Alberca Infinity",
+        "Gimnasio Equipado",
+        "Coworking Space",
+        "Sky Garden",
+        "Salon de Yoga",
+        "Pet Friendly Area",
+        "Estacionamiento Subterraneo",
+        "Bodega por Depto"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Habitacional Medio",
+        "densidad": "Media-Alta",
+        "coeficienteOcupacion": 0.55,
+        "coeficienteUtilizacion": 5.5
+      },
+      "infraestructura": {
+        "metro": [
+          "Linea 3 - Juarez"
+        ],
+        "metrobus": [],
+        "vialidades": [
+          "Av. Chapultepec",
+          "Av. Americas",
+          "Av. Enrique Diaz de Leon"
+        ],
+        "hospitales": [
+          "Hospital Mexico Americano",
+          "Hospital del Carmen"
+        ],
+        "escuelas": [
+          "ITESO",
+          "Universidad Autonoma de Guadalajara"
+        ],
+        "centrosComerciales": [
+          "Punto Sao Paulo",
+          "Plaza Galerias",
+          "Midtown Jalisco"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "B, C+",
+        "poblacionZona": 385000,
+        "densidadPoblacion": 9200,
+        "edadPromedio": 32,
+        "ingresoPronedioHogar": 68000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 8.8,
+        "proyeccion5Anos": 47,
+        "factoresPlusvalia": [
+          "Colonia Americana revitalizacion",
+          "Zona cultural y artistica",
+          "Demanda millennial",
+          "Conectividad urbana"
+        ],
+        "tendencia": "Crecimiento sostenido"
+      },
+      "imagen": "https://live.staticflickr.com/4382/36766636472_f1e3df98c7_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80"
+    },
+    {
+      "id": "punto-sao-paulo",
+      "nombre": "Sao Paulo Vertical",
+      "desarrollador": "Bovis Desarrollo Inmobiliario",
+      "ubicacion": {
+        "direccion": "Av. de las Americas 1501",
+        "colonia": "Country Club",
+        "alcaldia": "Guadalajara",
+        "ciudad": "Guadalajara",
+        "estado": "Jalisco",
+        "cp": "44630",
+        "lat": 20.6885,
+        "lng": -103.3795
+      },
+      "caracteristicas": {
+        "altura": 100,
+        "niveles": 24,
+        "unidades": 168,
+        "areaTotalM2": 32000,
+        "arquitecto": "Bovis Arquitectos",
+        "anoInicio": 2019,
+        "anoTermino": 2022,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Residencial Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 7,
+        "superficieMinM2": 95,
+        "superficieMaxM2": 245,
+        "recamarasMin": 2,
+        "recamarasMax": 3,
+        "precioMinMXN": 7200000,
+        "precioMaxMXN": 18500000,
+        "precioM2Promedio": 78000,
+        "rentaMinMXN": 32000,
+        "rentaMaxMXN": 65000
+      },
+      "amenidades": [
+        "Sky Lounge Piso 24",
+        "Alberca Infinity",
+        "Gimnasio TechnoGym",
+        "Spa & Sauna",
+        "Salon de Yoga",
+        "Kids Club",
+        "Coworking Spaces",
+        "Cinema Room",
+        "Pet Park",
+        "Concierge 24/7"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Habitacional Premium",
+        "densidad": "Alta",
+        "coeficienteOcupacion": 0.6,
+        "coeficienteUtilizacion": 7
+      },
+      "infraestructura": {
+        "metro": [],
+        "metrobus": [
+          "Mi Macro Periferico"
+        ],
+        "vialidades": [
+          "Av. de las Americas",
+          "Av. Providencia",
+          "Av. Patria"
+        ],
+        "hospitales": [
+          "Hospital Puerta de Hierro",
+          "Hospital Country 2000"
+        ],
+        "escuelas": [
+          "Tec de Monterrey GDL",
+          "ITESO",
+          "Universidad Panamericana"
+        ],
+        "centrosComerciales": [
+          "Punto Sao Paulo Mall",
+          "Andares",
+          "Plaza Galerias"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 125000,
+        "densidadPoblacion": 4800,
+        "edadPromedio": 36,
+        "ingresoPronedioHogar": 138000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 9.5,
+        "proyeccion5Anos": 51,
+        "factoresPlusvalia": [
+          "Zona corporativa en expansion",
+          "Providencia premium",
+          "Centro comercial integrado",
+          "Conectividad vial"
+        ],
+        "tendencia": "Alto crecimiento"
+      },
+      "imagen": "https://live.staticflickr.com/7852/47047965262_8e4c2f0f16_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80"
+    },
+    {
+      "id": "torre-virreyes",
+      "nombre": "Torre Virreyes Premium",
+      "desarrollador": "GFA Inmobiliaria",
+      "ubicacion": {
+        "direccion": "Av. de los Virreyes 155",
+        "colonia": "Lomas Virreyes",
+        "alcaldia": "Miguel Hidalgo",
+        "ciudad": "Ciudad de Mexico",
+        "estado": "CDMX",
+        "cp": "11000",
+        "lat": 19.4289,
+        "lng": -99.2058
+      },
+      "caracteristicas": {
+        "altura": 121,
+        "niveles": 24,
+        "unidades": 140,
+        "areaTotalM2": 32000,
+        "arquitecto": "GFA Arquitectos",
+        "anoInicio": 2012,
+        "anoTermino": 2014,
+        "estatus": "Operando",
+        "tipoDesarrollo": "Residencial Premium"
+      },
+      "departamentos": {
+        "tiposDisponibles": 6,
+        "superficieMinM2": 105,
+        "superficieMaxM2": 295,
+        "recamarasMin": 2,
+        "recamarasMax": 4,
+        "precioMinMXN": 13500000,
+        "precioMaxMXN": 38000000,
+        "precioM2Promedio": 128000,
+        "rentaMinMXN": 55000,
+        "rentaMaxMXN": 105000
+      },
+      "amenidades": [
+        "Roof Garden Panoramico",
+        "Alberca Climatizada",
+        "Gimnasio High Tech",
+        "Spa & Sauna Finlandesa",
+        "Business Lounge",
+        "Salon de Eventos Premium",
+        "Wine Room",
+        "Kids Club",
+        "Pet Spa",
+        "Valet Parking"
+      ],
+      "zonificacion": {
+        "usoSuelo": "Habitacional Residencial Premium",
+        "densidad": "Media-Alta",
+        "coeficienteOcupacion": 0.5,
+        "coeficienteUtilizacion": 5
+      },
+      "infraestructura": {
+        "metro": [
+          "Polanco (Linea 7)",
+          "Auditorio (Linea 7)"
+        ],
+        "metrobus": [
+          "Linea 7 - Palmas"
+        ],
+        "vialidades": [
+          "Periferico",
+          "Av. de los Virreyes",
+          "Av. Ejercito Nacional"
+        ],
+        "hospitales": [
+          "ABC Observatorio",
+          "Hospital Angeles Lomas"
+        ],
+        "escuelas": [
+          "Colegio Aleman Alexander von Humboldt",
+          "American School Foundation",
+          "Liceo Franco Mexicano"
+        ],
+        "centrosComerciales": [
+          "Antara Polanco",
+          "Parques Polanco",
+          "Paseo de las Palmas"
+        ]
+      },
+      "demografico": {
+        "nivelSocioeconomico": "A/B",
+        "poblacionZona": 68500,
+        "densidadPoblacion": 4100,
+        "edadPromedio": 41,
+        "ingresoPronedioHogar": 195000
+      },
+      "plusvalia": {
+        "tasaAnualPromedio": 10.5,
+        "proyeccion5Anos": 56,
+        "factoresPlusvalia": [
+          "Lomas de Virreyes exclusividad",
+          "Proximidad Polanco",
+          "Zona corporativa premium",
+          "Seguridad y privacidad"
+        ],
+        "tendencia": "Alto crecimiento"
+      },
+      "imagen": "https://live.staticflickr.com/1908/44994523224_0b45d93c6e_k.jpg",
+      "imagenMapa": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80"
+    }
+  ]
+}

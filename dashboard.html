@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | PropAnalytics</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="dashboard-page">
+  <!-- Loading Overlay -->
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Cargando datos del proyecto...</p>
+  </div>
+
+  <!-- Dashboard Header -->
+  <header class="dashboard-header">
+    <div class="header-left">
+      <a href="index.html" class="back-btn" title="Volver al inicio">
+        <i class="fas fa-arrow-left"></i>
+      </a>
+      <div class="project-info">
+        <span class="project-badge" id="projectStatus">Cargando...</span>
+        <div>
+          <h1 class="project-name" id="projectName">Cargando proyecto...</h1>
+          <p class="project-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span id="projectLocation">-</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <button class="tab-btn active" data-tab="analysis">
+        <i class="fas fa-chart-pie"></i> Analisis
+      </button>
+      <button class="tab-btn" data-tab="market">
+        <i class="fas fa-chart-line"></i> Mercado
+      </button>
+      <button class="tab-btn" data-tab="demographics">
+        <i class="fas fa-users"></i> Demografia
+      </button>
+    </div>
+
+    <div class="header-right">
+      <button class="header-btn" title="Tema" id="toggleTheme">
+        <i class="fas fa-sun"></i>
+      </button>
+      <button class="header-btn" title="Filtros" id="toggleFilters">
+        <i class="fas fa-sliders-h"></i>
+      </button>
+      <button class="header-btn" title="Exportar" id="exportData">
+        <i class="fas fa-download"></i>
+      </button>
+      <button class="header-btn" title="Notificaciones" id="showNotifications">
+        <i class="fas fa-bell"></i>
+        <span class="notification-badge">3</span>
+      </button>
+      <button class="header-btn" title="Panel de datos" id="togglePanel">
+        <i class="fas fa-chart-bar"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Dashboard Container -->
+  <div class="dashboard-container">
+    <!-- Left Sidebar - Filters & Layers -->
+    <aside class="sidebar-left" id="sidebarLeft">
+      <div class="sidebar-header">
+        <span class="sidebar-title">Capas y Filtros</span>
+        <button class="sidebar-toggle" id="collapseSidebar">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+      </div>
+
+      <!-- Search -->
+      <div class="sidebar-section">
+        <div class="filter-group">
+          <input type="text" class="filter-input" placeholder="Buscar direccion o inmueble...">
+        </div>
+      </div>
+
+      <!-- Map Layers -->
+      <div class="sidebar-section">
+        <h3 class="section-title">
+          <i class="fas fa-layer-group"></i> Capas del mapa
+        </h3>
+        <div class="layers-list">
+          <label class="layer-item active">
+            <input type="checkbox" class="layer-checkbox" data-layer="comparables" checked>
+            <div class="layer-icon comparables"><i class="fas fa-home"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Inmuebles Comparables</span>
+              <span class="layer-count" id="comparablesCount">0 inmuebles</span>
+            </div>
+          </label>
+          <label class="layer-item active">
+            <input type="checkbox" class="layer-checkbox" data-layer="transporte" checked>
+            <div class="layer-icon transporte"><i class="fas fa-subway"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Transporte</span>
+              <span class="layer-count" id="transporteCount">0 puntos</span>
+            </div>
+          </label>
+          <label class="layer-item">
+            <input type="checkbox" class="layer-checkbox" data-layer="educacion">
+            <div class="layer-icon educacion"><i class="fas fa-graduation-cap"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Educacion</span>
+              <span class="layer-count" id="educacionCount">0 puntos</span>
+            </div>
+          </label>
+          <label class="layer-item">
+            <input type="checkbox" class="layer-checkbox" data-layer="salud">
+            <div class="layer-icon salud"><i class="fas fa-hospital"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Salud</span>
+              <span class="layer-count" id="saludCount">0 puntos</span>
+            </div>
+          </label>
+          <label class="layer-item active">
+            <input type="checkbox" class="layer-checkbox" data-layer="comercio" checked>
+            <div class="layer-icon comercio"><i class="fas fa-shopping-bag"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Comercio</span>
+              <span class="layer-count" id="comercioCount">0 puntos</span>
+            </div>
+          </label>
+          <label class="layer-item">
+            <input type="checkbox" class="layer-checkbox" data-layer="recreacion">
+            <div class="layer-icon recreacion"><i class="fas fa-tree"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Recreacion</span>
+              <span class="layer-count" id="recreacionCount">0 puntos</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Polygon Layers -->
+      <div class="sidebar-section">
+        <h3 class="section-title">
+          <i class="fas fa-draw-polygon"></i> Análisis geográfico
+        </h3>
+        <div class="layers-list">
+          <label class="layer-item">
+            <input type="checkbox" class="layer-checkbox" data-polygon="radiosInfluencia">
+            <div class="layer-icon" style="background: rgba(49, 130, 206, 0.2);"><i class="fas fa-circle-notch"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Radios de Influencia</span>
+              <span class="layer-count">500m, 1km, 2km</span>
+            </div>
+          </label>
+          <label class="layer-item">
+            <input type="checkbox" class="layer-checkbox" data-polygon="zonasNSE">
+            <div class="layer-icon" style="background: rgba(16, 185, 129, 0.2);"><i class="fas fa-users"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Zonas por NSE</span>
+              <span class="layer-count">Nivel socioeconómico</span>
+            </div>
+          </label>
+          <label class="layer-item">
+            <input type="checkbox" class="layer-checkbox" data-polygon="heatMapPrecios">
+            <div class="layer-icon" style="background: rgba(239, 68, 68, 0.2);"><i class="fas fa-fire"></i></div>
+            <div class="layer-info">
+              <span class="layer-name">Mapa de Precios</span>
+              <span class="layer-count">Por zona</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Price Filter -->
+      <div class="sidebar-section">
+        <h3 class="section-title">
+          <i class="fas fa-dollar-sign"></i> Rango de precio
+        </h3>
+        <div class="range-slider">
+          <div class="range-values">
+            <span id="priceMin">$0</span>
+            <span id="priceMax">$50M</span>
+          </div>
+          <input type="range" min="0" max="50000000" value="50000000" id="priceRange">
+        </div>
+      </div>
+
+      <!-- Property Type Filter -->
+      <div class="sidebar-section">
+        <h3 class="section-title">
+          <i class="fas fa-building"></i> Tipo de inmueble
+        </h3>
+        <div class="layers-list">
+          <label class="layer-item active">
+            <input type="checkbox" class="layer-checkbox" data-type="departamento" checked>
+            <div class="layer-info">
+              <span class="layer-name">Departamentos</span>
+            </div>
+          </label>
+          <label class="layer-item active">
+            <input type="checkbox" class="layer-checkbox" data-type="casa" checked>
+            <div class="layer-info">
+              <span class="layer-name">Casas</span>
+            </div>
+          </label>
+          <label class="layer-item active">
+            <input type="checkbox" class="layer-checkbox" data-type="penthouse" checked>
+            <div class="layer-info">
+              <span class="layer-name">Penthouses</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Surface Filter -->
+      <div class="sidebar-section">
+        <h3 class="section-title">
+          <i class="fas fa-ruler-combined"></i> Superficie (m2)
+        </h3>
+        <div class="range-slider">
+          <div class="range-values">
+            <span id="surfaceMin">0 m2</span>
+            <span id="surfaceMax">500 m2</span>
+          </div>
+          <input type="range" min="0" max="500" value="500" id="surfaceRange">
+        </div>
+      </div>
+
+      <!-- Age Filter -->
+      <div class="sidebar-section">
+        <h3 class="section-title">
+          <i class="fas fa-calendar-alt"></i> Antiguedad
+        </h3>
+        <div class="filter-group">
+          <select class="filter-input" id="ageFilter">
+            <option value="all">Todas las edades</option>
+            <option value="new">Nuevo (0-2 anos)</option>
+            <option value="recent">Reciente (3-5 anos)</option>
+            <option value="medium">Medio (6-15 anos)</option>
+            <option value="old">Antiguo (16+ anos)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Apply Filters Button -->
+      <div class="sidebar-section">
+        <button class="btn w-100" style="background: var(--gradient-accent); color: white; border: none; padding: 0.75rem; border-radius: var(--radius-md); font-weight: 600;" id="applyFilters">
+          <i class="fas fa-filter me-2"></i>Aplicar filtros
+        </button>
+        <button class="btn w-100 mt-2" style="background: transparent; color: var(--neutral-400); border: 1px solid rgba(255,255,255,0.2); padding: 0.75rem; border-radius: var(--radius-md);" id="resetFilters">
+          <i class="fas fa-undo me-2"></i>Restablecer
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content - Map -->
+    <main class="main-content">
+      <!-- Map Container -->
+      <div class="map-container">
+        <div id="map"></div>
+
+        <!-- Map Controls -->
+        <div class="map-controls">
+          <button class="map-control-btn" title="Acercar" id="zoomIn">
+            <i class="fas fa-plus"></i>
+          </button>
+          <button class="map-control-btn" title="Alejar" id="zoomOut">
+            <i class="fas fa-minus"></i>
+          </button>
+          <button class="map-control-btn" title="Centrar proyecto" id="centerProject">
+            <i class="fas fa-crosshairs"></i>
+          </button>
+          <button class="map-control-btn" title="Vista satelite" id="toggleSatellite">
+            <i class="fas fa-satellite"></i>
+          </button>
+          <button class="map-control-btn" title="Pantalla completa" id="fullscreen">
+            <i class="fas fa-expand"></i>
+          </button>
+        </div>
+
+        <!-- Map Legend -->
+        <div class="map-legend">
+          <h4 class="legend-title">Leyenda</h4>
+          <div class="legend-items">
+            <div class="legend-item">
+              <div class="legend-color" style="background: #3182ce;"></div>
+              <span>Proyecto principal</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #e74c3c;"></div>
+              <span>Comparables</span>
+            </div>
+            <div class="legend-separator" style="margin: 0.5rem 0; border-top: 1px solid rgba(255,255,255,0.1);"></div>
+            <div class="legend-subtitle" style="font-size: 0.7rem; color: rgba(255,255,255,0.5); margin-bottom: 0.3rem; text-transform: uppercase;">POI</div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #3498db;"></div>
+              <span>Transporte</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #2ecc71;"></div>
+              <span>Salud</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #9b59b6;"></div>
+              <span>Educación</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #f1c40f;"></div>
+              <span>Comercio</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: #1abc9c;"></div>
+              <span>Recreación</span>
+            </div>
+            <div class="legend-separator" style="margin: 0.5rem 0; border-top: 1px solid rgba(255,255,255,0.1);"></div>
+            <div class="legend-subtitle" style="font-size: 0.7rem; color: rgba(255,255,255,0.5); margin-bottom: 0.3rem; text-transform: uppercase;">Zonas</div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: rgba(49, 130, 206, 0.2); border: 2px dashed #3182ce;"></div>
+              <span>Radios influencia</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: rgba(16, 185, 129, 0.3); border: 1px solid #10b981;"></div>
+              <span>Zonas NSE</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-color" style="background: linear-gradient(135deg, #dc2626, #fbbf24); opacity: 0.4;"></div>
+              <span>Heat map precios</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Panel - Data Table -->
+      <div class="panel-bottom" id="panelBottom">
+        <div class="panel-bottom-header" id="panelBottomHeader">
+          <h3 class="panel-bottom-title">
+            <i class="fas fa-table me-2"></i>
+            Inmuebles Comparables
+            <span class="badge" id="tableCount">0 registros</span>
+          </h3>
+          <button class="panel-bottom-toggle">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="panel-bottom-content">
+          <!-- Data Table -->
+          <div class="data-table-container">
+            <table class="data-table" id="comparablesTable">
+              <thead>
+                <tr>
+                  <th><i class="fas fa-sort me-1"></i>Direccion</th>
+                  <th><i class="fas fa-sort me-1"></i>Tipo</th>
+                  <th><i class="fas fa-sort me-1"></i>Precio</th>
+                  <th><i class="fas fa-sort me-1"></i>$/m2</th>
+                  <th><i class="fas fa-sort me-1"></i>m2 Const.</th>
+                  <th><i class="fas fa-sort me-1"></i>Recamaras</th>
+                  <th><i class="fas fa-sort me-1"></i>Banos</th>
+                  <th><i class="fas fa-sort me-1"></i>Edad</th>
+                  <th><i class="fas fa-sort me-1"></i>Estado</th>
+                  <th><i class="fas fa-sort me-1"></i>Fecha Avaluo</th>
+                </tr>
+              </thead>
+              <tbody id="comparablesTableBody">
+                <!-- Data will be loaded here -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Mini Stats -->
+          <div class="mini-stats">
+            <div class="mini-stat">
+              <div class="mini-stat-label">Precio promedio m2</div>
+              <div class="mini-stat-value" id="avgPriceM2">$0</div>
+            </div>
+            <div class="mini-stat">
+              <div class="mini-stat-label">Superficie promedio</div>
+              <div class="mini-stat-value" id="avgSurface">0 m2</div>
+            </div>
+            <div class="mini-stat">
+              <div class="mini-stat-label">Rango de precios</div>
+              <div class="mini-chart">
+                <canvas id="priceRangeChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Right Panel - Analytics -->
+    <aside class="panel-right" id="panelRight">
+      <div class="panel-header">
+        <h2 class="panel-title">Analisis de Proyecto</h2>
+        <button class="panel-close" id="closePanel">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!-- Project Image -->
+      <div class="panel-section" id="projectImageSection" style="padding: 0; margin-bottom: 1.5rem;">
+        <!-- Image will be loaded here -->
+      </div>
+
+      <!-- Project Overview -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Resumen del Proyecto</h3>
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-label">Precio/m2</div>
+            <div class="kpi-value" id="kpiPriceM2">$0</div>
+            <div class="kpi-change positive" id="kpiPriceChange">
+              <i class="fas fa-arrow-up"></i> 0%
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Unidades</div>
+            <div class="kpi-value" id="kpiUnits">0</div>
+            <div class="kpi-change" id="kpiUnitsStatus">-</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Altura</div>
+            <div class="kpi-value" id="kpiHeight">0m</div>
+            <div class="kpi-change" id="kpiLevels">0 niveles</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Plusvalia</div>
+            <div class="kpi-value" id="kpiAppreciation">0%</div>
+            <div class="kpi-change positive">
+              <i class="fas fa-trending-up"></i> anual
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Price Distribution Chart -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Distribucion de Precios</h3>
+        <div class="chart-container">
+          <div class="chart-header">
+            <span class="chart-title">Precio por m2 en la zona</span>
+            <span class="chart-period">Ultimos 6 meses</span>
+          </div>
+          <div class="chart-body">
+            <canvas id="priceDistChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property Types Chart -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Tipos de Inmueble</h3>
+        <div class="chart-container">
+          <div class="chart-body" style="height: 180px;">
+            <canvas id="propertyTypeChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demographics -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Perfil Socioeconomico</h3>
+        <div class="chart-container">
+          <div class="chart-body" style="height: 160px;">
+            <canvas id="nseChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zone Info -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Indicadores de Zona</h3>
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-label">Poblacion</div>
+            <div class="kpi-value" id="kpiPopulation">0</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Densidad</div>
+            <div class="kpi-value" id="kpiDensity">0</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Vacancia</div>
+            <div class="kpi-value" id="kpiVacancy">0%</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Cap Rate</div>
+            <div class="kpi-value" id="kpiCapRate">0%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Infrastructure -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Infraestructura Cercana</h3>
+        <div id="infrastructureList">
+          <!-- Dynamic content -->
+        </div>
+      </div>
+
+      <!-- Amenities -->
+      <div class="panel-section">
+        <h3 class="panel-section-title">Amenidades del Proyecto</h3>
+        <div id="amenitiesList" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <!-- Dynamic content -->
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Info Popup -->
+  <div class="info-popup" id="infoPopup">
+    <div class="popup-header">
+      <div>
+        <h4 class="popup-title" id="popupTitle">-</h4>
+        <p class="popup-subtitle" id="popupSubtitle">-</p>
+      </div>
+      <button class="popup-close" id="closePopup">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="popup-content" id="popupContent">
+      <!-- Dynamic content -->
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Dashboard JS -->
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
